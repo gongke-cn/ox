@@ -1,0 +1,46 @@
+# Chinese translations for win package
+# win 软件包的简体中文翻译.
+# Copyright (C) 2025 THE win'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the win package.
+# ke.gong <3188045634@qq.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: win 7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 15:55+0800\n"
+"PO-Revision-Date: 2025-05-08 15:24+0800\n"
+"Last-Translator: ke.gong <3188045634@qq.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gettext.ox:50
+msgid ""
+"Usage: ox -r gettext [OPTION]... FILE...\n"
+"Collect messages in the OX source files.\n"
+"Option:\n"
+"$"
+msgstr ""
+"用法: ox -r gettext [选项]... 文件...\n"
+"收集OX源文件中的文字信息。\n"
+"参数:\n"
+"$"
+
+#: gettext.ox:59
+msgid "Set the output filename"
+msgstr "设置输出文件名"
+
+#: gettext.ox:66
+msgid "Show this help message"
+msgstr "显示当前帮助信息"
+
+#: gettext.ox:80
+msgid "no input file specified\n"
+msgstr "没有声明输入文件\n"
+
+#: gettext.ox:110
+msgid "format of input file \"$\" is unknown\n"
+msgstr "未知的输入文件格式\"$\"\n"

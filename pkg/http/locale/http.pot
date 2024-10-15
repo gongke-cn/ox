@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 15:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: server.ox:16 server.ox:16
+msgid "Usage: ox -r http/server [OPTION]...\nOption:\n$"
+msgstr ""
+
+#: server.ox:26
+msgid "Set the maximum length to which the queue of pending connections"
+msgstr ""
+
+#: server.ox:34
+msgid "Set the HTTPS cerification key file"
+msgstr ""
+
+#: server.ox:42
+msgid "Set the HTTPS private key file"
+msgstr ""
+
+#: server.ox:50
+msgid "Set the port number"
+msgstr ""
+
+#: server.ox:58
+msgid "Set the root directory"
+msgstr ""
+
+#: server.ox:66
+msgid "Add script directory"
+msgstr ""
+
+#: server.ox:74
+msgid "Set the HTTP session timeout in seconds"
+msgstr ""
+
+#: server.ox:81
+msgid "Show this help message"
+msgstr ""
+
+#: server.ox:99
+msgid "private key is not specified\n"
+msgstr ""
+
+#: server.ox:106
+msgid "certification key is not specified\n"
+msgstr ""

@@ -1,0 +1,877 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-29 15:28+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: include/ox/ox_operation.h:83 include/ox/ox_operation.h:126
+#: include/ox/ox_operation.h:185 include/ox/ox_operation.h:232
+#: include/ox/ox_operation.h:277 include/ox/ox_operation.h:296
+#: include/ox/ox_operation.h:315
+msgid "the value is null"
+msgstr ""
+
+#: include/ox/ox_operation.h:497 include/ox/ox_operation.h:525
+#: include/ox/ox_operation.h:553 include/ox/ox_operation.h:581
+#: include/ox/ox_operation.h:609 include/ox/ox_operation.h:637
+#: src/lib/ox_lex.c:336 src/lib/ox_lex.c:347 src/lib/ox_operation.c:288
+#: src/lib/ox_operation.c:330 src/lib/ox_operation.c:358
+#: src/lib/ox_operation.c:387
+msgid "number value overflow"
+msgstr ""
+
+#: include/ox/ox_operation.h:667
+#, c-format
+msgid "value of property \"%s\" is null"
+msgstr ""
+
+#: src/lib/ox_script.c:339
+msgid "cannot set property of a script"
+msgstr ""
+
+#: src/lib/ox_script.c:346
+msgid "cannot delete property of a script"
+msgstr ""
+
+#: src/lib/ox_script.c:520
+#, c-format
+msgid "get real path of \"%s\" failed"
+msgstr ""
+
+#: src/lib/ox_script.c:600
+msgid "cannot load \"ox_load\" symbol"
+msgstr ""
+
+#: src/lib/ox_script.c:715 src/lib/ox_script.c:761 src/lib/ox_script.c:848
+#: src/lib/ox_script.c:860 src/lib/ox_script.c:871
+#, c-format
+msgid "pathname \"%s\" is too long"
+msgstr ""
+
+#: src/lib/ox_script.c:790 src/lib/ox_operation.c:754
+msgid "circular reference"
+msgstr ""
+
+#: src/lib/ox_script.c:854
+#, c-format
+msgid "cannot get dirname of \"%s\""
+msgstr ""
+
+#: src/lib/ox_script.c:892
+#, c-format
+msgid "cannot find script \"%s\""
+msgstr ""
+
+#: src/lib/ox_script.c:983 src/lib/ox_compile.c:2166
+#, c-format
+msgid "\"%s\" is not defined"
+msgstr ""
+
+#: src/lib/ox_script.c:1815
+msgid "the value is not a script"
+msgstr ""
+
+#: src/lib/ox_script.c:1887
+msgid "the value is not a script iterator"
+msgstr ""
+
+#: src/lib/ox_dict.c:106
+msgid "the value is not a dictionary object"
+msgstr ""
+
+#: src/lib/ox_dict.c:274
+msgid "the value is not a dictionary iterator"
+msgstr ""
+
+#: src/lib/ox_arch_linux.c:102 src/lib/ox_string.c:477 src/lib/ox_string.c:483
+#: src/lib/ox_arch_win.c:389
+#, c-format
+msgid "\"%s\" \"%s\" failed: %s"
+msgstr ""
+
+#: src/lib/ox_re.c:407
+msgid "expect a digit character here"
+msgstr ""
+
+#: src/lib/ox_re.c:435 src/lib/ox_re.c:441 src/lib/ox_re.c:484
+#: src/lib/ox_re.c:514 src/lib/ox_lex.c:138 src/lib/ox_lex.c:145
+msgid "expect a hexadecimal character here"
+msgstr ""
+
+#: src/lib/ox_re.c:477 src/lib/ox_lex.c:408
+msgid "unicode value overflow"
+msgstr ""
+
+#: src/lib/ox_re.c:587 src/lib/ox_lex.c:508
+msgid "illegal escape character"
+msgstr ""
+
+#: src/lib/ox_re.c:597 src/lib/ox_re.c:617 src/lib/ox_re.c:784
+msgid ""
+"`\n"
+"' cannot be used in regular expression"
+msgstr ""
+
+#: src/lib/ox_re.c:656
+msgid "character group cannot be used in range"
+msgstr ""
+
+#: src/lib/ox_re.c:748
+msgid "expect `=' or `!' here"
+msgstr ""
+
+#: src/lib/ox_re.c:752
+msgid "expect `:', `=' or `!' here"
+msgstr ""
+
+#: src/lib/ox_re.c:763 src/lib/ox_re.c:778
+msgid "expect `)' here"
+msgstr ""
+
+#: src/lib/ox_re.c:833
+msgid "expect `}' here"
+msgstr ""
+
+#: src/lib/ox_re.c:925
+msgid "expect `/' at end of regular expression"
+msgstr ""
+
+#: src/lib/ox_re.c:927
+msgid "unexpected character"
+msgstr ""
+
+#: src/lib/ox_re.c:1873 src/lib/ox_re.c:1912 src/lib/ox_string.c:1247
+#: src/lib/ox_string.c:2254 src/lib/ox_string.c:2316 src/lib/ox_operation.c:215
+msgid "illegal unicode character"
+msgstr ""
+
+#: src/lib/ox_re.c:2409 src/lib/ox_re.c:2470 src/lib/ox_re.c:2511
+msgid "the value is not a regular expression"
+msgstr ""
+
+#: src/lib/ox_error.c:93
+#, c-format
+msgid "%sthrow error%s: %s\n"
+msgstr ""
+
+#: src/lib/ox_error.c:154
+msgid "not enough memory"
+msgstr ""
+
+#: src/lib/ox_error.c:325
+msgid "the value is not an error"
+msgstr ""
+
+#: src/lib/ox_string.c:112
+msgid "cannot set the property of a string"
+msgstr ""
+
+#: src/lib/ox_string.c:134
+msgid "string cannot be modified"
+msgstr ""
+
+#: src/lib/ox_string.c:491 src/lib/ox_string.c:515 src/lib/ox_arch_win.c:141
+#: src/lib/ox_pthread.c:53 src/lib/ox_pthread.c:73 src/lib/ox_pthread.c:94
+#: src/lib/ox_file_input.c:215
+#, c-format
+msgid "\"%s\" failed: %s"
+msgstr ""
+
+#: src/lib/ox_string.c:1350
+msgid "the value is not a string iterator"
+msgstr ""
+
+#: src/lib/ox_string.c:1552 src/lib/ox_string.c:1613
+msgid "pad string cannot be \"\""
+msgstr ""
+
+#: src/lib/ox_string.c:1816
+msgid "the value is not a match iterator"
+msgstr ""
+
+#: src/lib/ox_string.c:2488
+msgid "the value is not a string builder"
+msgstr ""
+
+#: src/lib/ox_function.c:433
+msgid "the value is not a function"
+msgstr ""
+
+#: src/lib/ox_function.c:438 src/lib/ox_ctype.c:2091 src/lib/ox_ctype.c:2324
+#: src/lib/ox_ctype.c:2989 src/lib/ox_ctype.c:3000
+msgid "the value is not a C type"
+msgstr ""
+
+#: src/lib/ox_function.c:443
+msgid "the value is not a C function type"
+msgstr ""
+
+#: src/lib/ox_lex.c:178 src/lib/ox_lex.c:1089
+msgid "expect `*/' at end of comment block"
+msgstr ""
+
+#: src/lib/ox_lex.c:526
+msgid "expect a character data in `'' and `''"
+msgstr ""
+
+#: src/lib/ox_lex.c:535
+msgid "expect a `'' at end of character"
+msgstr ""
+
+#: src/lib/ox_lex.c:564
+msgid "expect a `\"' at end of string"
+msgstr ""
+
+#: src/lib/ox_lex.c:617
+msgid "expect `''' at end of string"
+msgstr ""
+
+#: src/lib/ox_lex.c:904
+msgid "string's output width should < 255"
+msgstr ""
+
+#: src/lib/ox_lex.c:931
+msgid "number's output precision should < 255"
+msgstr ""
+
+#: src/lib/ox_lex.c:1317 src/lib/ox_string_input.c:83
+#: src/lib/ox_file_input.c:167
+msgid "illegal character"
+msgstr ""
+
+#: src/lib/ox_lex.c:1338
+msgid "END"
+msgstr ""
+
+#: src/lib/ox_lex.c:1344
+msgid "boolean"
+msgstr ""
+
+#: src/lib/ox_lex.c:1347
+msgid "number"
+msgstr ""
+
+#: src/lib/ox_lex.c:1350
+msgid "string"
+msgstr ""
+
+#: src/lib/ox_lex.c:1353
+msgid "string head part"
+msgstr ""
+
+#: src/lib/ox_lex.c:1356
+msgid "string middle part"
+msgstr ""
+
+#: src/lib/ox_lex.c:1359
+msgid "string tail part"
+msgstr ""
+
+#: src/lib/ox_lex.c:1362
+msgid "regular expression"
+msgstr ""
+
+#: src/lib/ox_lex.c:1365
+msgid "identifier"
+msgstr ""
+
+#: src/lib/ox_lex.c:1368
+msgid "@identifier"
+msgstr ""
+
+#: src/lib/ox_lex.c:1371
+msgid "#identifier"
+msgstr ""
+
+#: src/lib/ox_lex.c:1374
+msgid "document"
+msgstr ""
+
+#: src/lib/ox_lex.c:1377
+msgid "LF"
+msgstr ""
+
+#: src/lib/ox_object.c:283
+#, c-format
+msgid "property \"%s\" cannot be set"
+msgstr ""
+
+#: src/lib/ox_object.c:351
+msgid "object's property must be a string"
+msgstr ""
+
+#: src/lib/ox_object.c:475
+msgid "private data's type mismatch"
+msgstr ""
+
+#: src/lib/ox_object.c:839
+msgid "the value is not an object iterator"
+msgstr ""
+
+#: src/lib/ox_object.c:867
+msgid "keys must be an array"
+msgstr ""
+
+#: src/lib/ox_object.c:1020
+msgid "the value is not an object"
+msgstr ""
+
+#: src/lib/ox_object.c:1030
+msgid "the value is not an object or null"
+msgstr ""
+
+#: src/lib/ox_object.c:1282
+msgid "the value is neither an object nor null"
+msgstr ""
+
+#: src/lib/ox_iterator.c:229
+msgid "the value is not an iterator with function"
+msgstr ""
+
+#: src/lib/ox_number.c:62
+msgid "cannot set the property of a number"
+msgstr ""
+
+#: src/lib/ox_number.c:363
+msgid "\"base\" must be in 2 ~ 36"
+msgstr ""
+
+#: src/lib/ox_package.c:70
+msgid "package information must be an object"
+msgstr ""
+
+#: src/lib/ox_package.c:229
+#, c-format
+msgid "cannot find package \"%s\""
+msgstr ""
+
+#: src/lib/ox_package.c:420
+#, c-format
+msgid "cannot find library \"%s\" in package \"%s\""
+msgstr ""
+
+#: src/lib/ox_package.c:503
+#, c-format
+msgid "cannot find executable program \"%s\" in package \"%s\""
+msgstr ""
+
+#: src/lib/ox_set.c:103
+msgid "the value is not a set object"
+msgstr ""
+
+#: src/lib/ox_set.c:278
+msgid "the value is not a set iterator"
+msgstr ""
+
+#: src/lib/ox_array.c:230
+#, c-format
+msgid "array's length (%<PRIdPTR>) is too big"
+msgstr ""
+
+#: src/lib/ox_array.c:418
+msgid "the value is not an array"
+msgstr ""
+
+#: src/lib/ox_array.c:1085
+msgid "the value is not an array iterator"
+msgstr ""
+
+#: src/lib/ox_ctype.c:152
+msgid "size of C type is unknown"
+msgstr ""
+
+#: src/lib/ox_ctype.c:523
+msgid "cannot get value from void pointer"
+msgstr ""
+
+#: src/lib/ox_ctype.c:630
+msgid "the value is not a string"
+msgstr ""
+
+#: src/lib/ox_ctype.c:639 src/lib/ox_ctype.c:663 src/lib/ox_ctype.c:698
+#: src/lib/ox_ctype.c:2163 src/lib/ox_ctype.c:2319 src/lib/ox_ctype.c:2511
+#: src/lib/ox_ctype.c:2537 src/lib/ox_ctype.c:2542
+msgid "the value is not a C value"
+msgstr ""
+
+#: src/lib/ox_ctype.c:643 src/lib/ox_ctype.c:647 src/lib/ox_ctype.c:667
+#: src/lib/ox_ctype.c:671 src/lib/ox_ctype.c:702 src/lib/ox_ctype.c:726
+msgid "the C value's type mismatch"
+msgstr ""
+
+#: src/lib/ox_ctype.c:650
+msgid "the array's size is unknown"
+msgstr ""
+
+#: src/lib/ox_ctype.c:674
+msgid "the structure's size is unknown"
+msgstr ""
+
+#: src/lib/ox_ctype.c:690
+msgid "the string cannot be used as the C pointer"
+msgstr ""
+
+#: src/lib/ox_ctype.c:733
+msgid "cannot set value of void pointer"
+msgstr ""
+
+#: src/lib/ox_ctype.c:758 src/lib/ox_ctype.c:879 src/lib/ox_ctype.c:2573
+msgid "the value is not a C pointer"
+msgstr ""
+
+#: src/lib/ox_ctype.c:788 src/lib/ox_ctype.c:904 src/lib/ox_ctype.c:1155
+#: src/lib/ox_ctype.c:2751 src/lib/ox_ctype.c:2855 src/lib/ox_ctype.c:3135
+msgid "item's size is unknown"
+msgstr ""
+
+#: src/lib/ox_ctype.c:792 src/lib/ox_ctype.c:823 src/lib/ox_ctype.c:908
+#: src/lib/ox_ctype.c:941 src/lib/ox_ctype.c:2794 src/lib/ox_ctype.c:2836
+#: src/lib/ox_ctype.c:2897
+msgid "the C pointer is null"
+msgstr ""
+
+#: src/lib/ox_ctype.c:888 src/lib/ox_ctype.c:895
+msgid "item's index overflow"
+msgstr ""
+
+#: src/lib/ox_ctype.c:1046 src/lib/ox_ctype.c:1486
+msgid "the value is not a C function"
+msgstr ""
+
+#: src/lib/ox_ctype.c:1292 src/lib/ox_ctype.c:1583 src/lib/ox_ctype.c:1963
+#, c-format
+msgid "\"%s\" failed: %d"
+msgstr ""
+
+#: src/lib/ox_ctype.c:1434
+#, c-format
+msgid "field \"%s\" is already defined"
+msgstr ""
+
+#: src/lib/ox_ctype.c:1572
+msgid "the function cannot be converted to C function"
+msgstr ""
+
+#: src/lib/ox_ctype.c:1575
+msgid "the value cannot be converted to C value"
+msgstr ""
+
+#: src/lib/ox_ctype.c:2182
+msgid "the value is not a C number"
+msgstr ""
+
+#: src/lib/ox_ctype.c:2686
+msgid "cannot get size of the C type"
+msgstr ""
+
+#: src/lib/ox_ctype.c:2731
+msgid "array offset overflow"
+msgstr ""
+
+#: src/lib/ox_ctype.c:2740
+msgid "reference length overflow"
+msgstr ""
+
+#: src/lib/ox_ctype.c:2822 src/lib/ox_ctype.c:2924 src/lib/ox_ctype.c:3129
+msgid "C array's length is unknown"
+msgstr ""
+
+#: src/lib/ox_ctype.c:2905
+msgid "the value is not a number buffer"
+msgstr ""
+
+#: src/lib/ox_ctype.c:3042
+msgid "the value cannot be converted to string"
+msgstr ""
+
+#: src/lib/ox_ctype.c:3060
+msgid "position overflow"
+msgstr ""
+
+#: src/lib/ox_ctype.c:3179
+msgid "the value is not a C array iterator"
+msgstr ""
+
+#: src/lib/ox_ctype.c:3239
+msgid "the C array is freed"
+msgstr ""
+
+#: src/lib/ox_bool.c:62
+msgid "cannot set the property of a boolean value"
+msgstr ""
+
+#: src/lib/ox_operation.c:57 src/lib/ox_operation.c:139
+msgid "result of \"$to_num\" must be a number"
+msgstr ""
+
+#: src/lib/ox_operation.c:127
+msgid "result of \"$to_str\" must be a string"
+msgstr ""
+
+#: src/lib/ox_operation.c:830
+#, c-format
+msgid "the property \"%s\" does not exist"
+msgstr ""
+
+#: src/lib/ox_prompt.c:94
+msgid "note"
+msgstr ""
+
+#: src/lib/ox_prompt.c:98
+msgid "warning"
+msgstr ""
+
+#: src/lib/ox_prompt.c:102
+msgid "error"
+msgstr ""
+
+#: src/lib/ox_enum.c:90
+msgid "the value is not an enumeration"
+msgstr ""
+
+#: src/lib/ox_enum.c:174
+msgid "cannot set property of enumeration"
+msgstr ""
+
+#: src/lib/ox_enum.c:231
+msgid "cannot set property of bitfield"
+msgstr ""
+
+#: src/lib/ox_enum.c:449
+msgid "the value is not an enumeration iterator"
+msgstr ""
+
+#: src/lib/ox_context.c:181
+msgid "stack:\n"
+msgstr ""
+
+#: src/lib/ox_context.c:198
+msgid "[noname function]"
+msgstr ""
+
+#: src/lib/ox_context.c:211
+#, c-format
+msgid " line: %d\n"
+msgstr ""
+
+#: src/lib/ox_context.c:233
+msgid "[native function]"
+msgstr ""
+
+#: src/lib/ox_json.c:123
+msgid "unteminated array"
+msgstr ""
+
+#: src/lib/ox_json.c:167
+msgid "unteminated object"
+msgstr ""
+
+#: src/lib/ox_json.c:176
+msgid "unexpected token, expect a property name here"
+msgstr ""
+
+#: src/lib/ox_json.c:182
+msgid "unexpected token, expect `:' here"
+msgstr ""
+
+#: src/lib/ox_json.c:228 src/lib/ox_json.c:236
+msgid "unexpected token, expect a number here"
+msgstr ""
+
+#: src/lib/ox_json.c:240
+msgid "unexpected NaN after `-'"
+msgstr ""
+
+#: src/lib/ox_json.c:265
+msgid "unexpected token, expect a value here"
+msgstr ""
+
+#: src/lib/ox_json.c:382 src/lib/ox_json.c:463
+msgid "circular reference in JSON"
+msgstr ""
+
+#: src/lib/ox_json.c:617
+msgid "the value cannot be stored as JSON"
+msgstr ""
+
+#: src/lib/ox_json.c:663
+msgid "parse JSON failed"
+msgstr ""
+
+#: src/lib/ox_parser.c:401
+msgid "unexpected "
+msgstr ""
+
+#: src/lib/ox_parser.c:408
+msgid ", expect "
+msgstr ""
+
+#: src/lib/ox_parser.c:438
+msgid " or "
+msgstr ""
+
+#: src/lib/ox_parser.c:443
+msgid ", "
+msgstr ""
+
+#: src/lib/ox_parser.c:763
+msgid "identifier is already declared as a parameter"
+msgstr ""
+
+#: src/lib/ox_parser.c:766
+msgid "identifier is already declared as a reference"
+msgstr ""
+
+#: src/lib/ox_parser.c:769
+msgid "identifier is already declared as a constant"
+msgstr ""
+
+#: src/lib/ox_parser.c:772
+msgid "identifier is already declared as a variable"
+msgstr ""
+
+#: src/lib/ox_parser.c:775
+msgid "identifier is already declared as an outer variable"
+msgstr ""
+
+#: src/lib/ox_parser.c:781
+msgid "previous declaration is here"
+msgstr ""
+
+#: src/lib/ox_parser.c:818
+msgid "cannot define outer identifier as constant"
+msgstr ""
+
+#: src/lib/ox_parser.c:1138
+msgid "expect `(' and `)' around the expression"
+msgstr ""
+
+#: src/lib/ox_parser.c:1152
+msgid "the expression is not a left value"
+msgstr ""
+
+#: src/lib/ox_parser.c:1171
+#, c-format
+msgid "keyword `%s' cannot be used as identifier"
+msgstr ""
+
+#: src/lib/ox_parser.c:1443
+msgid "bitfield's items must <= 32"
+msgstr ""
+
+#: src/lib/ox_parser.c:2957
+msgid "setter can only have one parameter"
+msgstr ""
+
+#: src/lib/ox_parser.c:3000
+msgid "`static' cannot be used in here"
+msgstr ""
+
+#: src/lib/ox_parser.c:3089
+msgid "field should be used as static property"
+msgstr ""
+
+#: src/lib/ox_parser.c:3212
+msgid "argument index is too big"
+msgstr ""
+
+#: src/lib/ox_parser.c:3559
+msgid "an expression"
+msgstr ""
+
+#: src/lib/ox_parser.c:3966
+msgid "`*' is already used"
+msgstr ""
+
+#: src/lib/ox_parser.c:3967
+msgid "previous `*' is here"
+msgstr ""
+
+#: src/lib/ox_parser.c:4200
+msgid "`return' cannot be used here"
+msgstr ""
+
+#: src/lib/ox_parser.c:4266
+msgid "`break' cannot be used here"
+msgstr ""
+
+#: src/lib/ox_parser.c:4285
+msgid "`continue' cannot be used here"
+msgstr ""
+
+#: src/lib/ox_parser.c:4314
+msgid "text domain is already defined"
+msgstr ""
+
+#: src/lib/ox_parser.c:4315
+msgid "previous text domain definition is here"
+msgstr ""
+
+#: src/lib/ox_parser.c:4454
+msgid "a statement"
+msgstr ""
+
+#: src/lib/ox_parser.c:4764
+#, c-format
+msgid "error occurred while parsing \"%s\""
+msgstr ""
+
+#: src/lib/ox_compile.c:519
+msgid "too many registers used"
+msgstr ""
+
+#: src/lib/ox_compile.c:790
+msgid "the function has not this argument"
+msgstr ""
+
+#: src/lib/ox_compile.c:2141
+msgid "constant cannot be reset"
+msgstr ""
+
+#: src/lib/ox_compile.c:3315
+msgid "too many declarations in the function"
+msgstr ""
+
+#: src/lib/ox_compile.c:3320
+msgid "function stack is too deep"
+msgstr ""
+
+#: src/lib/ox_compile.c:3399
+msgid "byte code buffer is too big"
+msgstr ""
+
+#: src/lib/ox_compile.c:3579
+msgid "too many functions defined"
+msgstr ""
+
+#: src/lib/ox_compile.c:3641
+msgid "too many constant values used"
+msgstr ""
+
+#: src/lib/ox_compile.c:3656
+msgid "too many private properties used"
+msgstr ""
+
+#: src/lib/ox_compile.c:3672
+msgid "too many localized text used"
+msgstr ""
+
+#: src/lib/ox_compile.c:3689
+msgid "too many localized text templates used"
+msgstr ""
+
+#: src/lib/ox_compile.c:3786
+#, c-format
+msgid "error occurred while compiling file \"%s\""
+msgstr ""
+
+#: src/lib/ox_string_templ.c:130
+msgid "unexpect character after `~'"
+msgstr ""
+
+#: src/lib/ox_match.c:73
+msgid "the value is not a regular expression match result"
+msgstr ""
+
+#: src/lib/ox_file_input.c:271
+#, c-format
+msgid "cannot open file \"%s\""
+msgstr ""
+
+#: src/lib/ox_file_input.c:280
+#, c-format
+msgid "\"%s\" %s -> %s failed"
+msgstr ""
+
+#: src/lib/ox_class.c:268
+msgid "class contains multiple parents with private allocation functions"
+msgstr ""
+
+#: src/lib/ox_class.c:279 src/lib/ox_class.c:287
+msgid "property \"$inf\" is not an interface"
+msgstr ""
+
+#: src/exe/main.c:82
+#, c-format
+msgid ""
+"Usage: %s [OPTION]... FILE [OX_OPTION]...\n"
+"Option:\n"
+"  --ast             Output the abstract syntax tree\n"
+"  --bc              Output the bytecode of the source file\n"
+"  -c                Only compiles the source file, not running it\n"
+"  -d DIR            Add package lookup directory\n"
+"  --dump-throw      Dump stack when throw an error\n"
+"  --enc ENCODING    Set the files' character encoding\n"
+"  --help            Show this help message\n"
+"  --log LEVEL       Set the log output level\n"
+"                    LEVEL should be any of the following values:\n"
+"                      a  output all log message\n"
+"                      d  output log message which level >= debug\n"
+"                      i  output log message which level >= information\n"
+"                      w  output log message which level >= warning\n"
+"                      e  output log message which level >= error\n"
+"                      f  output log message which level >= fatal error\n"
+"                      n  do not output any log message\n"
+"  --log-field FIELD\n"
+"                    Set the log output fields\n"
+"                    FIELD should contain the following characters:\n"
+"                      l  log level\n"
+"                      d  date in YYYY-MM-DD\n"
+"                      t  time in HH:MM:SS\n"
+"                      m  milliseconds\n"
+"                      T  log message tag\n"
+"                      f  filename\n"
+"                      F  function name\n"
+"                      L  line number\n"
+"                      i  thread id\n"
+"  --log-file FILE   Set the log filename\n"
+"  -p                Only parses the source file, not compiling it\n"
+"  --pr              Print the result value\n"
+"  -r                Run the executable program managed by the package "
+"manager\n"
+"                    instead of running an OX file.\n"
+"                    FILE is used as \"PACKAGE/PROGRAM\"\n"
+"  -s SOURCE         Use SOURCE string as the script source instead of the\n"
+"                    source file\n"
+"  --version         Show version number\n"
+msgstr ""
+
+#: src/exe/main.c:192
+#, c-format
+msgid "illegal output level \"%s\"\n"
+msgstr ""
+
+#: src/exe/main.c:252
+#, c-format
+msgid "cannot open log file \"%s\"\n"
+msgstr ""
+
+#: src/exe/main.c:353
+msgid "no input file specified\n"
+msgstr ""
+
+#: src/exe/main.c:373
+msgid "cannot get the executable program's path"
+msgstr ""
+
+#: src/exe/main.c:379
+msgid "cannot get OX environment"
+msgstr ""
+
+#: src/exe/main.c:580
+#, c-format
+msgid "%suncaught error%s: %s\n"
+msgstr ""

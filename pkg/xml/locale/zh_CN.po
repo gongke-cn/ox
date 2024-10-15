@@ -1,0 +1,186 @@
+# Chinese translations for win package.
+# Copyright (C) 2025 THE win'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the win package.
+# ke.gong <3188045634@qq.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: win 7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-26 14:55+0800\n"
+"PO-Revision-Date: 2025-08-29 16:46+0800\n"
+"Last-Translator: ke.gong <3188045634@qq.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: xml.ox:274
+msgid "expect `$' or `$' here"
+msgstr "此处期望`$'或`$'"
+
+#: xml.ox:276
+msgid "expect `$' here"
+msgstr "此处期望`$'"
+
+#: xml.ox:361
+msgid "illegal XML version \"$\""
+msgstr "非法的XML版本\"$\""
+
+#: xml.ox:366
+msgid "illegal XML encoding \"$\""
+msgstr "非法的XML编码\"$\""
+
+#: xml.ox:371
+msgid "\"standalone\" cannot be used in DTD"
+msgstr "\"standalone\"不能在DTD中使用"
+
+#: xml.ox:375
+msgid "value of \"standalone\" must be \"yes\" or \"no\""
+msgstr "\"standalone\"的值必须为\"yes\"或\"no\""
+
+#: xml.ox:379
+msgid "unknown XML attribute \"$\""
+msgstr "未知的XML属性\"$\""
+
+#: xml.ox:391
+msgid "\"$\" cannot be used as PI target"
+msgstr "\"$\"不能用作PI目标名"
+
+#: xml.ox:435
+msgid "id \"$\" is already used"
+msgstr "标志\"$\"已经被使用"
+
+#: xml.ox:458
+msgid "entity \"$\" is not defined"
+msgstr "实体\"$\"未定义"
+
+#: xml.ox:465
+msgid "\"$\" is not a name token"
+msgstr "\"$\"不是一个名称"
+
+#: xml.ox:517
+msgid "tag of root element must be \"$\""
+msgstr "根元素的标记必须是\"$\""
+
+#: xml.ox:527
+msgid "element \"$\" is not defined in DTD"
+msgstr "元素\"$\"没有在DTD中定义"
+
+#: xml.ox:561
+msgid "attribute \"$\" is already declared"
+msgstr "属性\"$\"已声明"
+
+#: xml.ox:601 xml.ox:610
+msgid "\"$\" is not a valid value of \"$\""
+msgstr "\"$\"不是一个有效值\"$\""
+
+#: xml.ox:605
+msgid "notation \"$\" is not defined"
+msgstr "标记\"$\"未定义"
+
+#: xml.ox:617
+msgid "attribute \"$\" is not the fixed value"
+msgstr "属性\"$\"不是固定值"
+
+#: xml.ox:657
+msgid "required attribute \"$\" is not defined"
+msgstr "必须的属性\"$\"未定义"
+
+#: xml.ox:678
+msgid "#PCDATA cannot be here"
+msgstr "#PCDATA不能在此处使用"
+
+#: xml.ox:710
+msgid "start and end tags mismatch"
+msgstr "开始和结束标记部匹配"
+
+#: xml.ox:717
+msgid "expect end tag here"
+msgstr "此处期望结束标记"
+
+#: xml.ox:727
+msgid "element \"$\" cannot be here"
+msgstr "元素\"$\"不能在此处"
+
+#: xml.ox:741
+msgid "element \"$\" should not end here"
+msgstr "元素\"$\"不能在此处结束"
+
+#: xml.ox:883
+msgid "element \"$\" is already declared"
+msgstr "元素\"$\"已声明"
+
+#: xml.ox:905
+msgid "illegal element content \"$\""
+msgstr "非法的元素内容\"$\""
+
+#: xml.ox:1000
+msgid "illegal attribute type \"$\""
+msgstr "非法的属性类型\"$\""
+
+#: xml.ox:1022
+msgid "illegal default value \"$\""
+msgstr "非法的缺省值\"$\""
+
+#: xml.ox:1109
+msgid "notation \"$\" is already declared"
+msgstr "记号\"$\"已声明"
+
+#: xml.ox:1212
+msgid "illegal tag \"$\""
+msgstr "非法的标记\"$\""
+
+#: xml.ox:1234
+msgid "`[' cannot be used here"
+msgstr "`['不能在此处使用"
+
+#: xml.ox:1254
+msgid "illegal declaration type \"$\""
+msgstr "非法的声明类型\"$\""
+
+#: xml.ox:1403
+msgid "id \"$\" is not defined"
+msgstr "标志\"$\"未定义"
+
+#: xml.ox:1417 xml.ox:1453
+msgid "illegal character"
+msgstr "非法字符"
+
+#: xml_input.oxn.c:292 xml_input.oxn.c:857 xml_input.oxn.c:1045
+#: xml_input.oxn.c:1110
+msgid "expect `%s' here"
+msgstr "此处期望`%s'"
+
+#: xml_input.oxn.c:311 xml_input.oxn.c:882
+msgid "cannot resolve entity \"%s\""
+msgstr "不能解析实体\"%s\""
+
+#: xml_input.oxn.c:544 xml_input.oxn.c:568 xml_input.oxn.c:593
+#: xml_input.oxn.c:623 xml_input.oxn.c:642 xml_input.oxn.c:660
+#: xml_input.oxn.c:677 xml_input.oxn.c:726 xml_input.oxn.c:922
+#: xml_input.oxn.c:976 xml_input.oxn.c:1020 xml_input.oxn.c:1078
+#: xml_input.oxn.c:1131 xml_input.oxn.c:1152
+msgid "the value is not a XML input"
+msgstr "值不是一个XML输入"
+
+#: xml_input.oxn.c:688 xml_input.oxn.c:832
+msgid "expect a name start character here"
+msgstr "此处期望一个名称起始字符"
+
+#: xml_input.oxn.c:737
+msgid "expect a name character here"
+msgstr "此处期望一个名称字符"
+
+#: xml_input.oxn.c:897
+msgid "illegal unicode"
+msgstr "非法unicode"
+
+#: xml_input.oxn.c:933
+msgid "expect `%s' or `%s' here"
+msgstr "此处期望`%s'或`%s'"
+
+#: xml_input.oxn.c:951
+msgid "expect `%c' at end of string"
+msgstr "字符串末尾期望`%c'"

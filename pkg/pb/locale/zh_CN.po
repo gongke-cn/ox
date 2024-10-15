@@ -1,0 +1,168 @@
+# Chinese translations for win package.
+# Copyright (C) 2025 THE win'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the win package.
+# ke.gong <3188045634@qq.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: win 7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-01 13:09+0800\n"
+"PO-Revision-Date: 2025-08-28 15:19+0800\n"
+"Last-Translator: ke.gong <3188045634@qq.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: build_oxn.ox:24
+msgid "cannot find file \"$\""
+msgstr "找不到文件\"$\""
+
+#: build_package.ox:28
+msgid "cannot get target architecture from the compiler"
+msgstr "无法通过编译器获取目标平台信息"
+
+#: build_package.ox:52 build_package.ox:80 build_oxp.ox:65
+msgid "\"$\" does not exist"
+msgstr "\"$\"不存在"
+
+#: build_package.ox:227 build_oxp.ox:170
+msgid "create $"
+msgstr "创建 $"
+
+#: loader.ox:180
+msgid "cannot open \"$\"\n"
+msgstr "无法打开\"$\"\n"
+
+#: loader.ox:182
+msgid "read \"$\" failed\n"
+msgstr "读取\"$\"失败\n"
+
+#: loader.ox:184
+msgid "\"$\" is not a valid build description file\n"
+msgstr "\"$\"不是一个有效的创建描述文件\n"
+
+#: loader.ox:194
+msgid "\"$\" syntax error: $"
+msgstr "\"$\"语法错误: $"
+
+#: loader.ox:215
+msgid "module \"$\" is not defined"
+msgstr "模块\"$\"没有定义"
+
+#: loader.ox:243
+msgid "oxn module \"$\" is not defined as library or executable"
+msgstr "oxn模块\"$\"没有被定义为库或可执行程序"
+
+#: tools.ox:15
+msgid "run \"$\" failed"
+msgstr "运行\"$\"失败"
+
+#: pb.ox:36
+msgid ""
+"Usage: ox -r pb [OPTION]...\n"
+"Build the OX package.\n"
+"Option:\n"
+"$"
+msgstr ""
+"用法: ox -r pb [参数]...\n"
+"创建OX包.\n"
+"参数:\n"
+"$"
+
+#: pb.ox:45
+msgid "Change the work directory before other operation"
+msgstr "在其他操作前改变工作目录"
+
+#: pb.ox:53
+msgid "Set a parameter"
+msgstr "设置一个参数"
+
+#: pb.ox:70
+msgid "Use the file as build description file"
+msgstr "将文件作为创建描述文件"
+
+#: pb.ox:77
+msgid "Force to rebuild the target files"
+msgstr "强制创新创建目标文件"
+
+#: pb.ox:84
+msgid "Compile in debug mode"
+msgstr "以调试模式编译"
+
+#: pb.ox:92
+msgid "Set the output directory"
+msgstr "设置输出目录"
+
+#: pb.ox:100
+msgid "Generate \"po\" file"
+msgstr "生成\"po\"文件"
+
+#: pb.ox:108
+msgid "Update \"pot\" and \"po\" files"
+msgstr "更新\"pot\"和\"po\"文件"
+
+#: pb.ox:115
+msgid "Clean the output files"
+msgstr "清除输出文件"
+
+#: pb.ox:122
+msgid "Create the OX package file"
+msgstr "创建OX包文件"
+
+#: pb.ox:129
+msgid "Quiet mode"
+msgstr "安静模式"
+
+#: pb.ox:137
+msgid "Set the target architecture"
+msgstr "设置目标平台"
+
+#: pb.ox:145
+msgid "Set the compiler"
+msgstr "设置编译器"
+
+#: pb.ox:153
+msgid "Set the proram \"pkg-config\""
+msgstr "设置程序\"pkg-config\""
+
+#: pb.ox:161
+msgid "Set the ox program"
+msgstr "设置OX程序"
+
+#: pb.ox:169
+msgid "Set compile flags"
+msgstr "设置编译器参数"
+
+#: pb.ox:177
+msgid "Set linker flags"
+msgstr "设置链接器参数"
+
+#: pb.ox:184
+msgid "Treat the \"build.ox\" as static JSON"
+msgstr "将\"build.ox\"当作JSON处理"
+
+#: pb.ox:191
+msgid "Prepare the building environment"
+msgstr "准备构建环境"
+
+#: pb.ox:198
+msgid "Install system packages when prepare building environment"
+msgstr "准备构建环境时安装系统软件包"
+
+#: pb.ox:205
+msgid "Show this help message"
+msgstr "显示帮助信息"
+
+#: pb.ox:234
+msgid "cannot find input file \"$\"\n"
+msgstr "找不到输入文件\"$\"\n"
+
+#: pb.ox:407
+msgid "delete $"
+msgstr "删除 $"
+
+#~ msgid "Add a native library lookup directory"
+#~ msgstr "增加一个本地库查找目录"

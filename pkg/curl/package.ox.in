@@ -1,0 +1,26 @@
+{
+  "name": "curl",
+  "description": {
+    "en": "curl - network transfer library",
+    "zh": "curl - 网络传输库"
+  },
+  "version": "0",
+  "homepage": "https://gitee.com/gongke1978/ox",
+  "maintainer": "OX maintainer",
+  "architecture": "%ARCH%",
+  "libraries": [
+    "curl",
+    "downloader"
+  ],
+  "dependencies": {
+    "ox": "0",
+    "std": "0",
+    "libcurl": "0",
+    "ca-certificates": "0"
+  },
+  "files": [
+    "%pkg%/package.ox",
+    "%pkg%/curl.oxn",
+    "%pkg%/downloader.ox"
+  ]
+}

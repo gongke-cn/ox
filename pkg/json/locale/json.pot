@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-26 14:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: json_pointer.ox:65 json_pointer.ox:65
+msgid "the first character of JSON pointer must be \"/\""
+msgstr ""
+
+#: json_schema.ox:186 json_schema.ox:186
+msgid "JSON schema loader is not specified"
+msgstr ""
+
+#: json_schema.ox:204 json_schema.ox:213 json_schema.ox:226 json_schema.ox:204 json_schema.ox:213 json_schema.ox:226
+msgid "cannot find the reference \"$\""
+msgstr ""
+
+#: json_schema.ox:285 json_schema.ox:285
+msgid "the schema is always false"
+msgstr ""
+
+#: json_schema.ox:307 json_schema.ox:323 json_schema.ox:307 json_schema.ox:323
+msgid "the value does not match any of $"
+msgstr ""
+
+#: json_schema.ox:325 json_schema.ox:325
+msgid "the value match many items of $"
+msgstr ""
+
+#: json_schema.ox:339 json_schema.ox:339
+msgid "the value cannot match $"
+msgstr ""
+
+#: json_schema.ox:378 json_schema.ox:378
+msgid "the value is not in valid type $"
+msgstr ""
+
+#: json_schema.ox:382 json_schema.ox:382
+msgid "the value's type is not \"$\""
+msgstr ""
+
+#: json_schema.ox:397 json_schema.ox:397
+msgid "the value is not in enum $"
+msgstr ""
+
+#: json_schema.ox:404 json_schema.ox:404
+msgid "the value is not equal to $"
+msgstr ""
+
+#: json_schema.ox:418 json_schema.ox:418
+msgid "the value is not multiple of $"
+msgstr ""
+
+#: json_schema.ox:425 json_schema.ox:425
+msgid "must <= maximum value $"
+msgstr ""
+
+#: json_schema.ox:432 json_schema.ox:432
+msgid "must < maximum value $"
+msgstr ""
+
+#: json_schema.ox:439 json_schema.ox:439
+msgid "must >= minimum value $"
+msgstr ""
+
+#: json_schema.ox:446 json_schema.ox:446
+msgid "must > minimum value $"
+msgstr ""
+
+#: json_schema.ox:455 json_schema.ox:484 json_schema.ox:455 json_schema.ox:484
+msgid "the length must <= $"
+msgstr ""
+
+#: json_schema.ox:462 json_schema.ox:491 json_schema.ox:462 json_schema.ox:491
+msgid "the length must >= $"
+msgstr ""
+
+#: json_schema.ox:475 json_schema.ox:475
+msgid "does not match pattern $"
+msgstr ""
+
+#: json_schema.ox:500 json_schema.ox:500
+msgid "all array items must be unique"
+msgstr ""
+
+#: json_schema.ox:604 json_schema.ox:604
+msgid "contains $ < $ times"
+msgstr ""
+
+#: json_schema.ox:610 json_schema.ox:610
+msgid "contains $ > $ times"
+msgstr ""
+
+#: json_schema.ox:625 json_schema.ox:625
+msgid "properties number must < $"
+msgstr ""
+
+#: json_schema.ox:631 json_schema.ox:631
+msgid "properties number must > $"
+msgstr ""
+
+#: json_schema.ox:640 json_schema.ox:640
+msgid "property \"$\" is required"
+msgstr ""
+
+#: json_schema.ox:651 json_schema.ox:651
+msgid "property \"$\" is required if \"$\" is present"
+msgstr ""

@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 15:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: error.ox:36 error.ox:36
+msgid "\"$\": $$error$: $\n"
+msgstr ""
+
+#: error.ox:46 error.ox:46
+msgid "\"$\": $$warning$: $\n"
+msgstr ""
+
+#: error.ox:56 error.ox:56
+msgid "\"$\": $$note$: $\n"
+msgstr ""
+
+#: input.ox:112 input.ox:112
+msgid "expect `@' here"
+msgstr ""
+
+#: input.ox:161 input.ox:161
+msgid "expect a word here"
+msgstr ""
+
+#: input.ox:199 input.ox:199
+msgid "expect `)' at end of type"
+msgstr ""
+
+#: input.ox:231 input.ox:231
+msgid "expect `}' at end of type"
+msgstr ""
+
+#: input.ox:265 input.ox:265
+msgid "expect `}' at end of value"
+msgstr ""
+
+#: command.ox:82 command.ox:131 command.ox:205 command.ox:231 command.ox:82 command.ox:131 command.ox:205 command.ox:231
+msgid "illegal command \"$\""
+msgstr ""
+
+#: command.ox:207 command.ox:207
+msgid "expect \"code}\" here"
+msgstr ""
+
+#: command.ox:243 command.ox:243
+msgid "expect \"$}\" here"
+msgstr ""
+
+#: document.ox:67 document.ox:70 document.ox:87 document.ox:90 document.ox:67 document.ox:70 document.ox:87 document.ox:90
+msgid "\"$\" is already defined"
+msgstr ""
+
+#: document.ox:68 document.ox:88 document.ox:453 document.ox:68 document.ox:88 document.ox:453
+msgid "previous definition is here"
+msgstr ""
+
+#: document.ox:156 document.ox:156
+msgid "parameter \"$\" have not corresponding documentation"
+msgstr ""
+
+#: document.ox:170 document.ox:170
+msgid "parameter \"$\" is not a valid parameter"
+msgstr ""
+
+#: document.ox:293 document.ox:293
+msgid "illegal command"
+msgstr ""
+
+#: document.ox:405 document.ox:405
+msgid "not supported file format \"$\""
+msgstr ""
+
+#: document.ox:451 document.ox:451
+msgid "package is already defined"
+msgstr ""
+
+#: document.ox:462 document.ox:462
+msgid "illegal document command \"$\""
+msgstr ""
+
+#: document.ox:466 document.ox:477 document.ox:466 document.ox:477
+msgid "command \"$\" cannot be used here"
+msgstr ""
+
+#: doc.ox:30 doc.ox:30
+msgid "Usage: ox -r doc [OPTION]... FILE...\nGenerate document of OX package.\nOption:\n$"
+msgstr ""
+
+#: doc.ox:44
+msgid "Set the output document's format"
+msgstr ""
+
+#: doc.ox:52
+msgid "Set the output directory's name"
+msgstr ""
+
+#: doc.ox:60
+msgid "Set the package name"
+msgstr ""
+
+#: doc.ox:67
+msgid "Show this help message"
+msgstr ""
+
+#: doc.ox:82
+msgid "no input file specified\n"
+msgstr ""
+
+#: doc.ox:107
+msgid "no document data found in the files\n"
+msgstr ""

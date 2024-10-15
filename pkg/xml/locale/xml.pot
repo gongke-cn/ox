@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-26 14:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: xml.ox:274 xml.ox:274
+msgid "expect `$' or `$' here"
+msgstr ""
+
+#: xml.ox:276 xml.ox:276
+msgid "expect `$' here"
+msgstr ""
+
+#: xml.ox:361 xml.ox:361
+msgid "illegal XML version \"$\""
+msgstr ""
+
+#: xml.ox:366 xml.ox:366
+msgid "illegal XML encoding \"$\""
+msgstr ""
+
+#: xml.ox:371 xml.ox:371
+msgid "\"standalone\" cannot be used in DTD"
+msgstr ""
+
+#: xml.ox:375 xml.ox:375
+msgid "value of \"standalone\" must be \"yes\" or \"no\""
+msgstr ""
+
+#: xml.ox:379 xml.ox:379
+msgid "unknown XML attribute \"$\""
+msgstr ""
+
+#: xml.ox:391 xml.ox:391
+msgid "\"$\" cannot be used as PI target"
+msgstr ""
+
+#: xml.ox:435 xml.ox:435
+msgid "id \"$\" is already used"
+msgstr ""
+
+#: xml.ox:458 xml.ox:458
+msgid "entity \"$\" is not defined"
+msgstr ""
+
+#: xml.ox:465 xml.ox:465
+msgid "\"$\" is not a name token"
+msgstr ""
+
+#: xml.ox:517 xml.ox:517
+msgid "tag of root element must be \"$\""
+msgstr ""
+
+#: xml.ox:527 xml.ox:527
+msgid "element \"$\" is not defined in DTD"
+msgstr ""
+
+#: xml.ox:561 xml.ox:561
+msgid "attribute \"$\" is already declared"
+msgstr ""
+
+#: xml.ox:601 xml.ox:610 xml.ox:601 xml.ox:610
+msgid "\"$\" is not a valid value of \"$\""
+msgstr ""
+
+#: xml.ox:605 xml.ox:605
+msgid "notation \"$\" is not defined"
+msgstr ""
+
+#: xml.ox:617 xml.ox:617
+msgid "attribute \"$\" is not the fixed value"
+msgstr ""
+
+#: xml.ox:657 xml.ox:657
+msgid "required attribute \"$\" is not defined"
+msgstr ""
+
+#: xml.ox:678 xml.ox:678
+msgid "#PCDATA cannot be here"
+msgstr ""
+
+#: xml.ox:710 xml.ox:710
+msgid "start and end tags mismatch"
+msgstr ""
+
+#: xml.ox:717 xml.ox:717
+msgid "expect end tag here"
+msgstr ""
+
+#: xml.ox:727 xml.ox:727
+msgid "element \"$\" cannot be here"
+msgstr ""
+
+#: xml.ox:741 xml.ox:741
+msgid "element \"$\" should not end here"
+msgstr ""
+
+#: xml.ox:883 xml.ox:883
+msgid "element \"$\" is already declared"
+msgstr ""
+
+#: xml.ox:905 xml.ox:905
+msgid "illegal element content \"$\""
+msgstr ""
+
+#: xml.ox:1000 xml.ox:1000
+msgid "illegal attribute type \"$\""
+msgstr ""
+
+#: xml.ox:1022 xml.ox:1022
+msgid "illegal default value \"$\""
+msgstr ""
+
+#: xml.ox:1109 xml.ox:1109
+msgid "notation \"$\" is already declared"
+msgstr ""
+
+#: xml.ox:1212 xml.ox:1212
+msgid "illegal tag \"$\""
+msgstr ""
+
+#: xml.ox:1234 xml.ox:1234
+msgid "`[' cannot be used here"
+msgstr ""
+
+#: xml.ox:1254 xml.ox:1254
+msgid "illegal declaration type \"$\""
+msgstr ""
+
+#: xml.ox:1403 xml.ox:1403
+msgid "id \"$\" is not defined"
+msgstr ""
+
+#: xml.ox:1417 xml.ox:1453 xml.ox:1417 xml.ox:1453
+msgid "illegal character"
+msgstr ""
+
+#: xml_input.oxn.c:292 xml_input.oxn.c:857 xml_input.oxn.c:1045 xml_input.oxn.c:1110
+msgid "expect `%s' here"
+msgstr ""
+
+#: xml_input.oxn.c:311 xml_input.oxn.c:882
+msgid "cannot resolve entity \"%s\""
+msgstr ""
+
+#: xml_input.oxn.c:544 xml_input.oxn.c:568 xml_input.oxn.c:593 xml_input.oxn.c:623 xml_input.oxn.c:642 xml_input.oxn.c:660 xml_input.oxn.c:677 xml_input.oxn.c:726 xml_input.oxn.c:922 xml_input.oxn.c:976 xml_input.oxn.c:1020 xml_input.oxn.c:1078 xml_input.oxn.c:1131 xml_input.oxn.c:1152
+msgid "the value is not a XML input"
+msgstr ""
+
+#: xml_input.oxn.c:688 xml_input.oxn.c:832
+msgid "expect a name start character here"
+msgstr ""
+
+#: xml_input.oxn.c:737
+msgid "expect a name character here"
+msgstr ""
+
+#: xml_input.oxn.c:897
+msgid "illegal unicode"
+msgstr ""
+
+#: xml_input.oxn.c:933
+msgid "expect `%s' or `%s' here"
+msgstr ""
+
+#: xml_input.oxn.c:951
+msgid "expect `%c' at end of string"
+msgstr ""

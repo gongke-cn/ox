@@ -1,0 +1,98 @@
+# Chinese translations for win package
+# win 软件包的简体中文翻译.
+# Copyright (C) 2025 THE win'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the win package.
+# ke.gong <3188045634@qq.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: win 7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 15:55+0800\n"
+"PO-Revision-Date: 2025-05-08 16:42+0800\n"
+"Last-Translator: ke.gong <3188045634@qq.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cdecl.ox:102
+msgid "\"$\" is already declared"
+msgstr "\"$\"已声明"
+
+#: cdecl.ox:455 cmacro.ox:88
+msgid "run \"$\" failed"
+msgstr "运行\"$\"失败"
+
+#: cmacro.ox:71
+msgid "macro \"$\" is already defined"
+msgstr "宏\"$\"已定义"
+
+#: ctype.ox:133
+msgid "unknown type \"$\""
+msgstr "未知类型\"$\""
+
+#: ctype.ox:363
+msgid "unknown record tag \"$\""
+msgstr "未知的记录标记\"$\""
+
+#: tools.ox:14
+msgid "$warning$: $\n"
+msgstr "$警告$: $\n"
+
+#: oxngen.ox:34
+msgid ""
+"Usage: ox -r oxngen [OPTION]...\n"
+"OX native module source generater.\n"
+"Option:\n"
+"$"
+msgstr ""
+"用法: ox -r oxngen [选项]...\n"
+"OX原生模块源码生成器。\n"
+"选项:\n"
+"$"
+
+#: oxngen.ox:184
+msgid "Set input native module description filename"
+msgstr "设置输入原生模块描述文件名"
+
+#: oxngen.ox:192
+msgid "Add an include directory"
+msgstr "增加头文件查找目录"
+
+#: oxngen.ox:200
+msgid "Add a macro definition"
+msgstr "增加一个宏定义"
+
+#: oxngen.ox:207
+msgid "List the oxn targets in the input file"
+msgstr "列出输入文件中的所有原生模块目标"
+
+#: oxngen.ox:215
+msgid "Set output directory"
+msgstr "设定输出目录"
+
+#: oxngen.ox:223
+msgid "Set a parameter"
+msgstr "设置一个参数"
+
+#: oxngen.ox:240
+msgid "Set the target architecture"
+msgstr "设定目标运行平台"
+
+#: oxngen.ox:248
+msgid "Set the program \"pkg-config\""
+msgstr "设置程序\"pkg-config\""
+
+#: oxngen.ox:255
+msgid "Show this help message"
+msgstr "显示当前帮助信息"
+
+#: oxngen.ox:277
+msgid "\"$\" does not exist"
+msgstr "\"$\"不存在"
+
+#: oxngen.ox:363
+msgid "cannot find input \"$\""
+msgstr "找不到输入\"$\""

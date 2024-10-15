@@ -1,0 +1,25 @@
+{
+  "name": "archive",
+  "description": {
+    "en": "Multi-format archive and compression library",
+    "zh": "支持多种格式的数据打包和压缩库"
+  },
+  "version": "0",
+  "homepage": "https://gitee.com/gongke1978/ox",
+  "maintainer": "OX maintainer",
+  "architecture": "%ARCH%",
+  "libraries": [
+    "archive",
+    "archive_entry"
+  ],
+  "dependencies": {
+    "ox": "0",
+    "std": "0",
+    "libarchive": "0"
+  },
+  "files": [
+    "%pkg%/package.ox",
+    "%pkg%/archive.oxn",
+    "%pkg%/archive_entry.oxn"
+  ]
+}

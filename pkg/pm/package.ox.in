@@ -1,0 +1,43 @@
+{
+  "name": "pm",
+  "description": {
+    "en": "OX package manager",
+    "zh": "OX脚本语言包管理器"
+  },
+  "version": "0",
+  "homepage": "https://gitee.com/gongke1978/ox",
+  "maintainer": "OX maintainer",
+  "architecture": "all",
+  "executables": [
+    "pm"
+  ],
+  "internal_libraries": [
+    "tools",
+    "config",
+    "log",
+    "server_list",
+    "server_manager",
+    "package_list",
+    "local_pm",
+    "delay_task"
+  ],
+  "dependencies": {
+    "ox": "0",
+    "std": "0",
+    "curl": "0",
+    "json": "0",
+    "oxp": "0"
+  },
+  "files": [
+    "%pkg%/package.ox",
+    "%pkg%/pm.ox",
+    "%pkg%/tools.ox",
+    "%pkg%/config.ox",
+    "%pkg%/log.ox",
+    "%pkg%/server_list.ox",
+    "%pkg%/server_manager.ox",
+    "%pkg%/package_list.ox",
+    "%pkg%/local_pm.ox",
+    "%pkg%/delay_task.ox"
+  ]
+}

@@ -1,0 +1,67 @@
+# Chinese translations for win package.
+# Copyright (C) 2025 THE win'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the win package.
+# ke.gong <3188045634@qq.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: win 7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 15:55+0800\n"
+"PO-Revision-Date: 2025-11-18 14:03+0800\n"
+"Last-Translator: ke.gong <3188045634@qq.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: server.ox:16
+msgid ""
+"Usage: ox -r http/server [OPTION]...\n"
+"Option:\n"
+"$"
+msgstr ""
+"用法: ox -r http/server [选项]...\n"
+"选项:\n"
+"$"
+
+#: server.ox:26
+msgid "Set the maximum length to which the queue of pending connections"
+msgstr "设置等待连接队列的最大长度"
+
+#: server.ox:34
+msgid "Set the HTTPS cerification key file"
+msgstr "设置HTTPS认证密钥文件"
+
+#: server.ox:42
+msgid "Set the HTTPS private key file"
+msgstr "设置HTTPS私钥文件"
+
+#: server.ox:50
+msgid "Set the port number"
+msgstr "设置端口号"
+
+#: server.ox:58
+msgid "Set the root directory"
+msgstr "设置根目录"
+
+#: server.ox:66
+msgid "Add script directory"
+msgstr "增加一个脚本文件目录"
+
+#: server.ox:74
+msgid "Set the HTTP session timeout in seconds"
+msgstr "设置以秒为单位的HTTP通话超时时间"
+
+#: server.ox:81
+msgid "Show this help message"
+msgstr "显示帮助信息"
+
+#: server.ox:99
+msgid "private key is not specified\n"
+msgstr "私钥没有设置\n"
+
+#: server.ox:106
+msgid "certification key is not specified\n"
+msgstr "认证密钥没有设置\n"

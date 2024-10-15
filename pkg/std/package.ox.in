@@ -1,0 +1,73 @@
+{
+  "name": "std",
+  "description": {
+    "en": "OX standard librares",
+    "zh": "OX脚本语言标准库"
+  },
+  "version": "0",
+  "homepage": "https://gitee.com/gongke1978/ox",
+  "maintainer": "OX maintainer",
+  "architecture": "%ARCH%",
+  "libraries": [
+    "io",
+    "time",
+    "log",
+    "path",
+    "path_conv",
+    "fs",
+    "dir",
+    "dir_r",
+    "system",
+    "lang",
+    "math",
+    "thread",
+    "queue",
+    "option",
+    "rand",
+    "char",
+    "socket",
+    "process",
+    "temp_file",
+    "text_util",
+    "ast",
+    "uri",
+    "fiber",
+    "shell",
+    "copy"
+  ],
+  "internal_libraries": [
+    "ast_types"
+  ],
+  "dependencies": {
+    "ox": "0"
+  },
+  "files": [
+    "%pkg%/package.ox",
+    "%pkg%/io.oxn",
+    "%pkg%/time.oxn",
+    "%pkg%/log.oxn",
+    "%pkg%/path.oxn",
+    "%pkg%/path_conv.ox",
+    "%pkg%/fs.oxn",
+    "%pkg%/dir.oxn",
+    "%pkg%/dir_r.ox",
+    "%pkg%/system.oxn",
+    "%pkg%/lang.oxn",
+    "%pkg%/math.oxn",
+    "%pkg%/thread.oxn",
+    "%pkg%/queue.oxn",
+    "%pkg%/option.ox",
+    "%pkg%/rand.oxn",
+    "%pkg%/char.oxn",
+    "%pkg%/socket.oxn",
+    "%pkg%/process.oxn",
+    "%pkg%/temp_file.ox",
+    "%pkg%/text_util.ox",
+    "%pkg%/ast.ox",
+    "%pkg%/uri.ox",
+    "%pkg%/fiber.oxn",
+    "%pkg%/shell.ox",
+    "%pkg%/copy.ox",
+    "%pkg%/ast_types.oxn"
+  ]
+}

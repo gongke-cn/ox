@@ -1,0 +1,12 @@
+prefix=%PREFIX%
+exec_prefix=${prefix}
+libdir=${prefix}/%LIB_ARCH%
+includedir=${prefix}/include
+
+Name: libox
+URL: https://gitee.com/gongke1978/ox
+Description: OX script language.
+Version: %VERSION%
+Libs: -L${libdir} -lox %LIBS%
+Cflags: -I${includedir}
+

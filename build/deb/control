@@ -1,0 +1,10 @@
+Package: ox
+Version: %VERSION%
+Section: devel
+Priority: optional
+Architecture: %ARCH%
+Depends: libc6, libffi8, libcurl4t64, libarchive13t64, libsdl1.2debian, libncurses6, libssl3t64, libgirepository-2.0-0
+Homepage: https://gitee.com/gongke1978/ox
+Maintainer: Gong Ke <3188045634@qq.com>
+Description: OX script language
+  OX script language running environment.

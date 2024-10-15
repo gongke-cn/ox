@@ -1,0 +1,226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-29 15:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: option.ox:78 option.ox:78
+msgid "illegal option \"$\"\n"
+msgstr ""
+
+#: option.ox:87 option.ox:87
+msgid "option \"$\" cannot have argument\n"
+msgstr ""
+
+#: option.ox:90 option.ox:90
+msgid "option \"$\" should have argument\n"
+msgstr ""
+
+#: option.ox:103 option.ox:103
+msgid "illegal boolean argument \"$\"\n"
+msgstr ""
+
+#: option.ox:110 option.ox:117 option.ox:110 option.ox:117
+msgid "argument of \"$\" is not a number\n"
+msgstr ""
+
+#: option.ox:122 option.ox:122
+msgid "argument of \"$\" is not an integer\n"
+msgstr ""
+
+#: option.ox:129 option.ox:129
+msgid "argument \"$\" is not in \"$\"\n"
+msgstr ""
+
+#: uri.ox:141 uri.ox:141
+msgid "illegal port"
+msgstr ""
+
+#: log.oxn.c:90
+msgid "level value overflow"
+msgstr ""
+
+#: dir.oxn.c:98
+msgid "the value is not a directory"
+msgstr ""
+
+#: dir.oxn.c:111
+msgid "directory is already closed"
+msgstr ""
+
+#: io.oxn.c:106
+msgid "the value is not a file iterator"
+msgstr ""
+
+#: io.oxn.c:235
+msgid "the value is not a \"FILE*\""
+msgstr ""
+
+#: io.oxn.c:302 io.oxn.c:361 io.oxn.c:406
+msgid "cannot open file \"%s\""
+msgstr ""
+
+#: io.oxn.c:397 io.oxn.c:673 io.oxn.c:744 socket.oxn.c:591 socket.oxn.c:781
+msgid "the value is not a C value"
+msgstr ""
+
+#: io.oxn.c:467
+msgid "the value is not a file"
+msgstr ""
+
+#: io.oxn.c:487
+msgid "the file is closed"
+msgstr ""
+
+#: io.oxn.c:610 io.oxn.c:639
+msgid "\"%s\" error"
+msgstr ""
+
+#: io.oxn.c:683 io.oxn.c:754 socket.oxn.c:603 socket.oxn.c:696 socket.oxn.c:798 socket.oxn.c:897
+msgid "the C array's item size is unknown"
+msgstr ""
+
+#: io.oxn.c:709 io.oxn.c:780 socket.oxn.c:619 socket.oxn.c:712 socket.oxn.c:814 socket.oxn.c:913
+msgid "the C array's length is unknown"
+msgstr ""
+
+#: lang.oxn.c:120
+msgid "the value is not a stack entry"
+msgstr ""
+
+#: lang.oxn.c:291
+msgid "cannot find \"%s\""
+msgstr ""
+
+#: lang.oxn.c:297
+msgid "cannot set the constant \"%s\""
+msgstr ""
+
+#: lang.oxn.c:304
+msgid "cannot set variable in native function"
+msgstr ""
+
+#: path.oxn.c:121
+msgid "the value is not a path"
+msgstr ""
+
+#: process.oxn.c:128
+msgid "the value is not a process"
+msgstr ""
+
+#: process.oxn.c:309
+msgid "illegal command line"
+msgstr ""
+
+#: process.oxn.c:392
+msgid "%suncaught error%s: %s\n"
+msgstr ""
+
+#: process.oxn.c:462 process.oxn.c:722
+msgid "process is already stopped"
+msgstr ""
+
+#: process.oxn.c:507 socket.oxn.c:141
+msgid "\"%s\" failed: %d: %s"
+msgstr ""
+
+#: queue.oxn.c:109
+msgid "the value is not a queue"
+msgstr ""
+
+#: socket.oxn.c:267 socket.oxn.c:279 socket.oxn.c:296
+msgid "the value is not a socket address"
+msgstr ""
+
+#: socket.oxn.c:282
+msgid "the socket address is not an inet address"
+msgstr ""
+
+#: socket.oxn.c:299
+msgid "the socket address is not an inet6 address"
+msgstr ""
+
+#: socket.oxn.c:380
+msgid "the value is not a socket"
+msgstr ""
+
+#: socket.oxn.c:398
+msgid "the socket is closed"
+msgstr ""
+
+#: socket.oxn.c:1125 socket.oxn.c:1487
+msgid "argument is not a valid inet address"
+msgstr ""
+
+#: socket.oxn.c:1220
+msgid "the value is not a \"struct sockaddr\""
+msgstr ""
+
+#: socket.oxn.c:1263
+msgid "\"%s\" failed: %s"
+msgstr ""
+
+#: socket.oxn.c:1598
+msgid "argument is not a valid inet6 address"
+msgstr ""
+
+#: socket.oxn.c:1709 fiber.oxn.c:126
+msgid "the value is not a function"
+msgstr ""
+
+#: socket.oxn.c:1747
+msgid "the value is not a socket manager"
+msgstr ""
+
+#: thread.oxn.c:136
+msgid "the value is not a thread"
+msgstr ""
+
+#: time.oxn.c:121 time.oxn.c:335 time.oxn.c:376 time.oxn.c:693
+msgid "\"%s\" must be a finite value"
+msgstr ""
+
+#: time.oxn.c:147
+msgid "the value is not a time object"
+msgstr ""
+
+#: time.oxn.c:422
+msgid "\"%s\" must be in 1 ~ 12"
+msgstr ""
+
+#: time.oxn.c:467 time.oxn.c:784
+msgid "\"%s\" must be in 1 ~ 31"
+msgstr ""
+
+#: time.oxn.c:512 time.oxn.c:829
+msgid "\"%s\" must be in 0 ~ 23"
+msgstr ""
+
+#: time.oxn.c:557 time.oxn.c:602 time.oxn.c:874 time.oxn.c:919
+msgid "\"%s\" must be in 0 ~ 59"
+msgstr ""
+
+#: time.oxn.c:648
+msgid "\"%s\" must be in 0 ~ 999"
+msgstr ""
+
+#: time.oxn.c:739
+msgid "\"%s\" must be in 0 ~ 11"
+msgstr ""
+
+#: fiber.oxn.c:207 fiber.oxn.c:221 fiber.oxn.c:236
+msgid "the value is not a fiber"
+msgstr ""

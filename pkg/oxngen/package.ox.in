@@ -1,0 +1,38 @@
+{
+  "name": "oxngen",
+  "description": {
+    "en": "OX native module generator",
+    "zh": "OX脚本语言原生模块生成器"
+  },
+  "version": "0",
+  "homepage": "https://gitee.com/gongke1978/ox",
+  "maintainer": "OX maintainer",
+  "architecture": "all",
+  "executables": [
+    "oxngen"
+  ],
+  "internal_libraries": [
+    "cdecl",
+    "cmacro",
+    "ctype",
+    "oxnsrc",
+    "tools",
+    "log"
+  ],
+  "dependencies": {
+    "ox": "0",
+    "std": "0",
+    "json": "0",
+    "clang": "0"
+  },
+  "files": [
+    "%pkg%/package.ox",
+    "%pkg%/oxngen.ox",
+    "%pkg%/cdecl.ox",
+    "%pkg%/cmacro.ox",
+    "%pkg%/ctype.ox",
+    "%pkg%/oxnsrc.ox",
+    "%pkg%/tools.ox",
+    "%pkg%/log.ox"
+  ]
+}

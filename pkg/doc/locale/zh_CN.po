@@ -1,0 +1,133 @@
+# Chinese translations for win package.
+# Copyright (C) 2025 THE win'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the win package.
+# gk <3188045634@qq.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: win 7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 15:55+0800\n"
+"PO-Revision-Date: 2025-10-18 11:41+0800\n"
+"Last-Translator: gk <3188045634@qq.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: error.ox:36
+msgid "\"$\": $$error$: $\n"
+msgstr "\"$\": $$错误$: $\n"
+
+#: error.ox:46
+msgid "\"$\": $$warning$: $\n"
+msgstr "\"$\": $$警告$: $\n"
+
+#: error.ox:56
+msgid "\"$\": $$note$: $\n"
+msgstr "\"$\": $$注释$: $\n"
+
+#: input.ox:112
+msgid "expect `@' here"
+msgstr "此处应为`@'"
+
+#: input.ox:161
+msgid "expect a word here"
+msgstr "此处应为一个词"
+
+#: input.ox:199
+msgid "expect `)' at end of type"
+msgstr "类型末尾应为`)'"
+
+#: input.ox:231
+msgid "expect `}' at end of type"
+msgstr "类型末尾应为`}'"
+
+#: input.ox:265
+msgid "expect `}' at end of value"
+msgstr "值末尾应为`}'"
+
+#: command.ox:82 command.ox:131 command.ox:205 command.ox:231
+msgid "illegal command \"$\""
+msgstr "无效命令\"$\""
+
+#: command.ox:207
+msgid "expect \"code}\" here"
+msgstr "此处应为\"code}\""
+
+#: command.ox:243
+msgid "expect \"$}\" here"
+msgstr "此处应为\"$}\""
+
+#: document.ox:67 document.ox:70 document.ox:87 document.ox:90
+msgid "\"$\" is already defined"
+msgstr "\"$\"已经定义"
+
+#: document.ox:68 document.ox:88 document.ox:453
+msgid "previous definition is here"
+msgstr "上一个定义在这里"
+
+#: document.ox:156
+msgid "parameter \"$\" have not corresponding documentation"
+msgstr "参数\"$\"没有对应的文档"
+
+#: document.ox:170
+msgid "parameter \"$\" is not a valid parameter"
+msgstr "\"$\"不是一个有效的参数"
+
+#: document.ox:293
+msgid "illegal command"
+msgstr "无效命令"
+
+#: document.ox:405
+msgid "not supported file format \"$\""
+msgstr "不支持的文件格式\"$\""
+
+#: document.ox:451
+msgid "package is already defined"
+msgstr "包已定义"
+
+#: document.ox:462
+msgid "illegal document command \"$\""
+msgstr "无效的文档命令\"$\""
+
+#: document.ox:466 document.ox:477
+msgid "command \"$\" cannot be used here"
+msgstr "命令\"$\"不能在此处使用"
+
+#: doc.ox:30
+msgid ""
+"Usage: ox -r doc [OPTION]... FILE...\n"
+"Generate document of OX package.\n"
+"Option:\n"
+"$"
+msgstr ""
+"用法: ox -r doc [选项]... 文件...\n"
+"生成OX软件包文档.\n"
+"选项:\n"
+"$"
+
+#: doc.ox:44
+msgid "Set the output document's format"
+msgstr "设置输出文档格式"
+
+#: doc.ox:52
+msgid "Set the output directory's name"
+msgstr "设置文档输出路径"
+
+#: doc.ox:60
+msgid "Set the package name"
+msgstr "设置包名称"
+
+#: doc.ox:67
+msgid "Show this help message"
+msgstr "显示帮助信息"
+
+#: doc.ox:82
+msgid "no input file specified\n"
+msgstr "没有指定输入文件\n"
+
+#: doc.ox:107
+msgid "no document data found in the files\n"
+msgstr "文件中没有找到文档数据\n"

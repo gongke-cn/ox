@@ -1,0 +1,111 @@
+# Chinese translations for win package
+# win 软件包的简体中文翻译.
+# Copyright (C) 2025 THE win'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the win package.
+# ke.gong <3188045634@qq.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: win 7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-18 14:08+0800\n"
+"PO-Revision-Date: 2025-05-08 15:31+0800\n"
+"Last-Translator: ke.gong <3188045634@qq.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#~ msgid "array's size is unknown"
+#~ msgstr "数组大小未知"
+
+#~ msgid "element's size is unknown"
+#~ msgstr "元素大小未知"
+
+#~ msgid "array's length is less than the expected length"
+#~ msgstr "数组长度小于期望长度"
+
+#~ msgid "the value is not a C pointer"
+#~ msgstr "值不是一个C指针"
+
+#~ msgid "the array's item type mismatch"
+#~ msgstr "数组的元素类型不匹配"
+
+#~ msgid "the value cannot be converted to C array"
+#~ msgstr "值不能被转化为C数组"
+
+#~ msgid "the value cannot be converted to GArray"
+#~ msgstr "值不能被转化为GArray"
+
+#~ msgid "the value cannot be converted to GPtrArray"
+#~ msgstr "值不能被转化为GPtrArray"
+
+#~ msgid "string's length is less than the expected length"
+#~ msgstr "字符串长度小于期望长度"
+
+#~ msgid "the value cannot be converted to GByteArray"
+#~ msgstr "值不能被转化为GByteArray"
+
+#~ msgid "unsupported key type"
+#~ msgstr "不支持的键值类型"
+
+#~ msgid "the iterator's value is not an array"
+#~ msgstr "迭代器的值不是一个数组"
+
+#~ msgid "cannot find the information of GType"
+#~ msgstr "不能获取GType的信息"
+
+#~ msgid "the value is not a GLib callback"
+#~ msgstr "值不是一个GLib回调"
+
+#~ msgid "the value is not a string"
+#~ msgstr "值不是一个数组"
+
+#~ msgid "the instance is already freed"
+#~ msgstr "实例已经被释放"
+
+#~ msgid "the value is not in type \"%s\""
+#~ msgstr "值的类型不是\"%s\""
+
+#~ msgid "the value is not an array"
+#~ msgstr "值不是一个数组"
+
+#~ msgid "uncaught error: %s\n"
+#~ msgstr "未捕获错误: %s\n"
+
+#~ msgid "\"%s\" failed"
+#~ msgstr "\"%s\"失败"
+
+#~ msgid "the value is not \"%s\""
+#~ msgstr "值不是\"%s\""
+
+#~ msgid "get field \"%s\" failed"
+#~ msgstr "获取域\"%s\"的值失败"
+
+#~ msgid "set field \"%s\" failed"
+#~ msgstr "设置域\"%s\"的值失败"
+
+#~ msgid "the value is not a GLib function"
+#~ msgstr "值不是一个GLib函数"
+
+#~ msgid "the value is not a GObject instance"
+#~ msgstr "值不是一个GObject实例"
+
+#~ msgid "the value is not a GIRepository"
+#~ msgstr "值不是一个GIRepository"
+
+#~ msgid "the value is not a signal handler"
+#~ msgstr "值不是一个信号处理器"
+
+#~ msgid "the value is not an GObject"
+#~ msgstr "值不是一个GObject"
+
+#~ msgid "the value is not a function"
+#~ msgstr "值不是一个函数"
+
+#~ msgid "signal \"%s\" is not defined"
+#~ msgstr "信号\"%s\"已定义"
+
+#~ msgid "the value is not a GI type"
+#~ msgstr "值不是一个GI类型"

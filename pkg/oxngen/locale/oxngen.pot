@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 15:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cdecl.ox:102 cdecl.ox:102
+msgid "\"$\" is already declared"
+msgstr ""
+
+#: cdecl.ox:455 cdecl.ox:455 cmacro.ox:88 cmacro.ox:88
+msgid "run \"$\" failed"
+msgstr ""
+
+#: cmacro.ox:71 cmacro.ox:71
+msgid "macro \"$\" is already defined"
+msgstr ""
+
+#: ctype.ox:133 ctype.ox:133
+msgid "unknown type \"$\""
+msgstr ""
+
+#: ctype.ox:363 ctype.ox:363
+msgid "unknown record tag \"$\""
+msgstr ""
+
+#: tools.ox:14 tools.ox:14
+msgid "$warning$: $\n"
+msgstr ""
+
+#: oxngen.ox:34 oxngen.ox:34
+msgid "Usage: ox -r oxngen [OPTION]...\nOX native module source generater.\nOption:\n$"
+msgstr ""
+
+#: oxngen.ox:184
+msgid "Set input native module description filename"
+msgstr ""
+
+#: oxngen.ox:192
+msgid "Add an include directory"
+msgstr ""
+
+#: oxngen.ox:200
+msgid "Add a macro definition"
+msgstr ""
+
+#: oxngen.ox:207
+msgid "List the oxn targets in the input file"
+msgstr ""
+
+#: oxngen.ox:215
+msgid "Set output directory"
+msgstr ""
+
+#: oxngen.ox:223
+msgid "Set a parameter"
+msgstr ""
+
+#: oxngen.ox:240
+msgid "Set the target architecture"
+msgstr ""
+
+#: oxngen.ox:248
+msgid "Set the program \"pkg-config\""
+msgstr ""
+
+#: oxngen.ox:255
+msgid "Show this help message"
+msgstr ""
+
+#: oxngen.ox:277
+msgid "\"$\" does not exist"
+msgstr ""
+
+#: oxngen.ox:363 oxngen.ox:363
+msgid "cannot find input \"$\""
+msgstr ""

@@ -1,0 +1,28 @@
+{
+  "name": "xml",
+  "description": {
+    "en": "XML parse libraries",
+    "zh": "XML解析库"
+  },
+  "version": "0",
+  "homepage": "https://gitee.com/gongke1978/ox",
+  "maintainer": "OX maintainer",
+  "architecture": "%ARCH%",
+  "libraries": [
+    "xml"
+  ],
+  "internal_libraries": [
+    "log",
+    "xml_input"
+  ],
+  "dependencies": {
+    "ox": "0",
+    "std": "0"
+  },
+  "files": [
+    "%pkg%/package.ox",
+    "%pkg%/xml.ox",
+    "%pkg%/log.ox",
+    "%pkg%/xml_input.oxn"
+  ]
+}

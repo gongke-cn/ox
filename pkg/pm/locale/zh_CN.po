@@ -1,0 +1,255 @@
+# Chinese translations for win package.
+# Copyright (C) 2025 THE win'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the win package.
+# ke.gong <3188045634@qq.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: win 7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-01 15:59+0800\n"
+"PO-Revision-Date: 2025-11-06 15:56+0800\n"
+"Last-Translator: ke.gong <3188045634@qq.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: tools.ox:29
+msgid "Package manager error"
+msgstr "软件包管理器错误"
+
+#: tools.ox:39
+msgid "cannot find package \"$\""
+msgstr "找不到软件包\"$\""
+
+#: tools.ox:138
+msgid "$error$: $\n"
+msgstr "$错误$: $\n"
+
+#: tools.ox:147
+msgid "$warning$: $\n"
+msgstr "$警告$: $\n"
+
+#: server_manager.ox:35
+msgid "downloading \"$\"\n"
+msgstr "下载\"$\"\n"
+
+#: server_manager.ox:85
+msgid "sync packages list from \"$\"\n"
+msgstr "从服务器\"$\"同步软件包列表\n"
+
+#: server_manager.ox:214
+msgid "package \"$\" is already downloaded\n"
+msgstr "软件包\"$\"已下载\n"
+
+#: server_manager.ox:223
+msgid "package \"$\" downloaded as \"$\"\n"
+msgstr "软件包\"$\"下载为\"$\"\n"
+
+#: server_manager.ox:253
+msgid ""
+"minimum version required for \"$\" is \"$\", but the actual version is \"$\""
+msgstr "软件包\"$\"需要的最低版本为\"$\", 实际版本为\"$\""
+
+#: server_manager.ox:288
+msgid "the packages are already the latest versions\n"
+msgstr "软件包都已是最新版本\n"
+
+#: server_manager.ox:292
+msgid "the following packages will be synced:\n"
+msgstr "以下软件包将被同步:\n"
+
+#: local_pm.ox:140
+msgid "remove package \"$\" ($)\n"
+msgstr "移除软件包\"$\" ($)\n"
+
+#: local_pm.ox:142
+msgid "package \"$\" removed\n"
+msgstr "软件包\"$\"移除完毕\n"
+
+#: local_pm.ox:177
+msgid "package \"$\" ($) installed\n"
+msgstr "软件包\"$\" ($)安装完毕\n"
+
+#: local_pm.ox:186
+msgid "package \"$\" cannot be removed"
+msgstr "软件包\"$\"不能被移除"
+
+#: local_pm.ox:194
+msgid "package \"$\" is not installed"
+msgstr "软件包\"$\"没有安装"
+
+#: local_pm.ox:221 local_pm.ox:223
+msgid "the following packages depend on the package to be removed"
+msgstr "以下软件包依赖将要移除的包"
+
+#: local_pm.ox:343
+msgid "the following dependent packages are not installed"
+msgstr "以下被依赖的软件包尚未安装"
+
+#: local_pm.ox:386
+msgid "The files in the following packages already exist\n"
+msgstr "以下包中的文件已存在:\n"
+
+#: local_pm.ox:395
+msgid "do you want to overwrite these files (y/n): "
+msgstr "是否要覆盖这些文件(y/n): "
+
+#: local_pm.ox:417
+msgid ""
+"the installed packages depend on the following system packages:\n"
+"  "
+msgstr ""
+"已安装包依赖以下系统包:\n"
+"  "
+
+#: local_pm.ox:452
+msgid "the following packages are missing:\n"
+msgstr "缺失以下软件包:\n"
+
+#: local_pm.ox:499
+msgid "the following packages can be removed:\n"
+msgstr "以下软件包可以被移除:\n"
+
+#: local_pm.ox:505
+msgid "should these packages be removed (y/n): "
+msgstr "是否移除这些软件包(y/n): "
+
+#: pm.ox:26
+msgid ""
+"Usage: ox -r pm [OPTION]... [PACKAGE]...\n"
+"OX package manager.\n"
+"Option:\n"
+"$"
+msgstr ""
+"用法: ox -r pm [选项]... [软件包]...\n"
+"OX软件包管理器.\n"
+"选项:\n"
+"$"
+
+#: pm.ox:35
+msgid "Add a package lookup directory"
+msgstr "增加一个包查询目录"
+
+#: pm.ox:42
+msgid "Only download software packages without installing them"
+msgstr "只下载不安装软件包"
+
+#: pm.ox:49
+msgid ""
+"Force to install the packages even if the version is lower than the "
+"installed one"
+msgstr "当将要安装的软件包版本低于已安装版本时强制安装"
+
+#: pm.ox:56
+msgid "Generate package list file"
+msgstr "生成软件包列表文件"
+
+#: pm.ox:64
+msgid ""
+"Split the oxp file the clips when generating package list. Set the clip size "
+"in bytes"
+msgstr "生成包列表时对包文件进行切片. 指定字节为单位的切片文件大小"
+
+#: pm.ox:72
+msgid ""
+"Install the package files. The PACKAGES are the package files, not the "
+"package names"
+msgstr "安装包文件. 参数中的[软件包]代表包文件名，而不是软件包名"
+
+#: pm.ox:80
+msgid "Set the installation directory"
+msgstr "设置安装目录"
+
+#: pm.ox:88
+msgid "List the packages installed"
+msgstr "列出已安装的软件包"
+
+#: pm.ox:96
+msgid "Set the library directory"
+msgstr "设置库目录"
+
+#: pm.ox:103
+msgid "List the files in the packages"
+msgstr "列出软件包中的文件"
+
+#: pm.ox:110
+msgid "List the packages on the server"
+msgstr "列出服务器上的软件包"
+
+#: pm.ox:117
+msgid "Do not check dependencies"
+msgstr "不检查依赖关系"
+
+#: pm.ox:124
+msgid "Update the local package list file"
+msgstr "更新本地包列表文件"
+
+#: pm.ox:131
+msgid "Prepare packages for pb"
+msgstr "为pb准备软件包"
+
+#: pm.ox:139
+msgid "Query the package information"
+msgstr "查询软件包信息"
+
+#: pm.ox:146
+msgid "Query the package information on the server"
+msgstr "查询服务器上的软件包信息"
+
+#: pm.ox:153
+msgid "Remove the packages"
+msgstr "移除软件包"
+
+#: pm.ox:160
+msgid "Sync packages from the server"
+msgstr "从服务器同步软件包"
+
+#: pm.ox:167
+msgid "Repair the missing packages"
+msgstr "修复缺失的软件包"
+
+#: pm.ox:174
+msgid "Cleaning the unused packages"
+msgstr "清理不需要的软件包"
+
+#: pm.ox:182
+msgid "Add a package server"
+msgstr "增加一个软件包服务器"
+
+#: pm.ox:189
+msgid "Synchronize system dependencies"
+msgstr "同步依赖的系统包"
+
+#: pm.ox:197
+msgid "Set the target architecture name"
+msgstr "设置目标平台名"
+
+#: pm.ox:204
+msgid "Update the local cached data"
+msgstr "更新本地缓存数据"
+
+#: pm.ox:211
+msgid "Show this help message"
+msgstr "显示帮助信息"
+
+#: pm.ox:232
+msgid "no command specified"
+msgstr "没有指定命令"
+
+#: pm.ox:275
+msgid "no package names specified"
+msgstr "没有指定软件包名"
+
+#: pm.ox:283
+msgid "no server specified"
+msgstr "没有设置软件包服务器"
+
+#: pm.ox:293
+msgid "cannot get the OX installation directory"
+msgstr "无法获取OX安装目录"
+
+#~ msgid "download \"$\" failed"
+#~ msgstr "下载\"$\"失败"

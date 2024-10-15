@@ -1,0 +1,30 @@
+{
+  "name": "gettext",
+  "description": {
+    "en": "Translate message tools",
+    "zh": "信息翻译工具"
+  },
+  "version": "0",
+  "homepage": "https://gitee.com/gongke1978/ox",
+  "maintainer": "OX maintainer",
+  "architecture": "%ARCH%",
+  "executables": [
+    "gettext"
+  ],
+  "internal_libraries": [
+    "c_parser",
+    "ox_parser",
+    "log"
+  ],
+  "dependencies": {
+    "ox": "0",
+    "std": "0"
+  },
+  "files": [
+    "%pkg%/package.ox",
+    "%pkg%/gettext.ox",
+    "%pkg%/c_parser.oxn",
+    "%pkg%/ox_parser.ox",
+    "%pkg%/log.ox"
+  ]
+}

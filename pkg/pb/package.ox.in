@@ -1,0 +1,55 @@
+{
+  "name": "pb",
+  "description": {
+    "en": "OX package builder",
+    "zh": "OX脚本语言软件包构建工具"
+  },
+  "version": "0",
+  "homepage": "https://gitee.com/gongke1978/ox",
+  "maintainer": "OX maintainer",
+  "architecture": "all",
+  "executables": [
+    "pb"
+  ],
+  "internal_libraries": [
+    "prepare",
+    "build_doc",
+    "build_oxn",
+    "build_oxngen",
+    "build_package",
+    "build_text",
+    "build_oxp",
+    "config",
+    "loader",
+    "tools",
+    "log"
+  ],
+  "dependencies": {
+    "ox": "0",
+    "std": "0",
+    "gettext": "0",
+    "doc": "0",
+    "oxngen": "0",
+    "json": "0",
+    "oxp": "0",
+    "ox_devel": "0",
+    "gcc": "0",
+    "gnu-gettext": "0",
+    "pkgconf": "0"
+  },
+  "files": [
+    "%pkg%/package.ox",
+    "%pkg%/pb.ox",
+    "%pkg%/prepare.ox",
+    "%pkg%/build_doc.ox",
+    "%pkg%/build_oxn.ox",
+    "%pkg%/build_oxngen.ox",
+    "%pkg%/build_package.ox",
+    "%pkg%/build_text.ox",
+    "%pkg%/build_oxp.ox",
+    "%pkg%/config.ox",
+    "%pkg%/loader.ox",
+    "%pkg%/tools.ox",
+    "%pkg%/log.ox"
+  ]
+}

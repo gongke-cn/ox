@@ -1,0 +1,40 @@
+{
+  "name": "doc",
+  "description": {
+    "en": "Document generater",
+    "zh": "文档生成器"
+  },
+  "version": "0",
+  "homepage": "https://gitee.com/gongke1978/ox",
+  "maintainer": "OX maintainer",
+  "architecture": "all",
+  "executables": [
+    "doc"
+  ],
+  "internal_libraries": [
+    "error",
+    "input",
+    "command",
+    "document",
+    "html",
+    "markdown",
+    "parser",
+    "log"
+  ],
+  "dependencies": {
+    "ox": "0",
+    "std": "0"
+  },
+  "files": [
+    "%pkg%/package.ox",
+    "%pkg%/doc.ox",
+    "%pkg%/error.ox",
+    "%pkg%/input.ox",
+    "%pkg%/command.ox",
+    "%pkg%/document.ox",
+    "%pkg%/html.ox",
+    "%pkg%/markdown.ox",
+    "%pkg%/parser.ox",
+    "%pkg%/log.ox"
+  ]
+}

@@ -1,0 +1,234 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-01 15:59+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: tools.ox:29 tools.ox:29
+msgid "Package manager error"
+msgstr ""
+
+#: tools.ox:39 tools.ox:39
+msgid "cannot find package \"$\""
+msgstr ""
+
+#: tools.ox:138 tools.ox:138
+msgid "$error$: $\n"
+msgstr ""
+
+#: tools.ox:147 tools.ox:147
+msgid "$warning$: $\n"
+msgstr ""
+
+#: server_manager.ox:35 server_manager.ox:35
+msgid "downloading \"$\"\n"
+msgstr ""
+
+#: server_manager.ox:85 server_manager.ox:85
+msgid "sync packages list from \"$\"\n"
+msgstr ""
+
+#: server_manager.ox:214 server_manager.ox:214
+msgid "package \"$\" is already downloaded\n"
+msgstr ""
+
+#: server_manager.ox:223 server_manager.ox:223
+msgid "package \"$\" downloaded as \"$\"\n"
+msgstr ""
+
+#: server_manager.ox:253 server_manager.ox:253 server_manager.ox:253
+msgid "minimum version required for \"$\" is \"$\", but the actual version is \"$\""
+msgstr ""
+
+#: server_manager.ox:288 server_manager.ox:288
+msgid "the packages are already the latest versions\n"
+msgstr ""
+
+#: server_manager.ox:292 server_manager.ox:292
+msgid "the following packages will be synced:\n"
+msgstr ""
+
+#: local_pm.ox:140 local_pm.ox:140
+msgid "remove package \"$\" ($)\n"
+msgstr ""
+
+#: local_pm.ox:142 local_pm.ox:142
+msgid "package \"$\" removed\n"
+msgstr ""
+
+#: local_pm.ox:177 local_pm.ox:177
+msgid "package \"$\" ($) installed\n"
+msgstr ""
+
+#: local_pm.ox:186 local_pm.ox:186
+msgid "package \"$\" cannot be removed"
+msgstr ""
+
+#: local_pm.ox:194 local_pm.ox:194
+msgid "package \"$\" is not installed"
+msgstr ""
+
+#: local_pm.ox:221 local_pm.ox:223 local_pm.ox:221 local_pm.ox:223
+msgid "the following packages depend on the package to be removed"
+msgstr ""
+
+#: local_pm.ox:343 local_pm.ox:343
+msgid "the following dependent packages are not installed"
+msgstr ""
+
+#: local_pm.ox:386 local_pm.ox:386
+msgid "The files in the following packages already exist\n"
+msgstr ""
+
+#: local_pm.ox:395 local_pm.ox:395
+msgid "do you want to overwrite these files (y/n): "
+msgstr ""
+
+#: local_pm.ox:417 local_pm.ox:417
+msgid "the installed packages depend on the following system packages:\n  "
+msgstr ""
+
+#: local_pm.ox:452 local_pm.ox:452
+msgid "the following packages are missing:\n"
+msgstr ""
+
+#: local_pm.ox:499 local_pm.ox:499
+msgid "the following packages can be removed:\n"
+msgstr ""
+
+#: local_pm.ox:505 local_pm.ox:505
+msgid "should these packages be removed (y/n): "
+msgstr ""
+
+#: pm.ox:26 pm.ox:26
+msgid "Usage: ox -r pm [OPTION]... [PACKAGE]...\nOX package manager.\nOption:\n$"
+msgstr ""
+
+#: pm.ox:35
+msgid "Add a package lookup directory"
+msgstr ""
+
+#: pm.ox:42
+msgid "Only download software packages without installing them"
+msgstr ""
+
+#: pm.ox:49
+msgid "Force to install the packages even if the version is lower than the installed one"
+msgstr ""
+
+#: pm.ox:56
+msgid "Generate package list file"
+msgstr ""
+
+#: pm.ox:64
+msgid "Split the oxp file the clips when generating package list. Set the clip size in bytes"
+msgstr ""
+
+#: pm.ox:72
+msgid "Install the package files. The PACKAGES are the package files, not the package names"
+msgstr ""
+
+#: pm.ox:80
+msgid "Set the installation directory"
+msgstr ""
+
+#: pm.ox:88
+msgid "List the packages installed"
+msgstr ""
+
+#: pm.ox:96
+msgid "Set the library directory"
+msgstr ""
+
+#: pm.ox:103
+msgid "List the files in the packages"
+msgstr ""
+
+#: pm.ox:110
+msgid "List the packages on the server"
+msgstr ""
+
+#: pm.ox:117
+msgid "Do not check dependencies"
+msgstr ""
+
+#: pm.ox:124
+msgid "Update the local package list file"
+msgstr ""
+
+#: pm.ox:131
+msgid "Prepare packages for pb"
+msgstr ""
+
+#: pm.ox:139
+msgid "Query the package information"
+msgstr ""
+
+#: pm.ox:146
+msgid "Query the package information on the server"
+msgstr ""
+
+#: pm.ox:153
+msgid "Remove the packages"
+msgstr ""
+
+#: pm.ox:160
+msgid "Sync packages from the server"
+msgstr ""
+
+#: pm.ox:167
+msgid "Repair the missing packages"
+msgstr ""
+
+#: pm.ox:174
+msgid "Cleaning the unused packages"
+msgstr ""
+
+#: pm.ox:182
+msgid "Add a package server"
+msgstr ""
+
+#: pm.ox:189
+msgid "Synchronize system dependencies"
+msgstr ""
+
+#: pm.ox:197
+msgid "Set the target architecture name"
+msgstr ""
+
+#: pm.ox:204
+msgid "Update the local cached data"
+msgstr ""
+
+#: pm.ox:211
+msgid "Show this help message"
+msgstr ""
+
+#: pm.ox:232
+msgid "no command specified"
+msgstr ""
+
+#: pm.ox:275 pm.ox:275
+msgid "no package names specified"
+msgstr ""
+
+#: pm.ox:283 pm.ox:283
+msgid "no server specified"
+msgstr ""
+
+#: pm.ox:293 pm.ox:293
+msgid "cannot get the OX installation directory"
+msgstr ""

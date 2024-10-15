@@ -1,0 +1,28 @@
+{
+  "name": "json",
+  "description": {
+    "en": "JSON libraries",
+    "zh": "JSON库"
+  },
+  "version": "0",
+  "homepage": "https://gitee.com/gongke1978/ox",
+  "maintainer": "OX maintainer",
+  "architecture": "%ARCH%",
+  "libraries": [
+    "json",
+    "json_pointer",
+    "json_schema",
+    "log"
+  ],
+  "dependencies": {
+    "ox": "0",
+    "std": "0"
+  },
+  "files": [
+    "%pkg%/package.ox",
+    "%pkg%/json.oxn",
+    "%pkg%/json_pointer.ox",
+    "%pkg%/json_schema.ox",
+    "%pkg%/log.ox"
+  ]
+}

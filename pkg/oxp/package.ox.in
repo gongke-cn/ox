@@ -1,0 +1,31 @@
+{
+  "name": "oxp",
+  "description": {
+    "en": "OX package operation library",
+    "zh": "OX脚本语言软件包操作库"
+  },
+  "version": "0",
+  "homepage": "https://gitee.com/gongke1978/ox",
+  "maintainer": "OX maintainer",
+  "architecture": "all",
+  "libraries": [
+    "oxp",
+    "package_schema",
+    "package_list_schema"
+  ],
+  "internal_libraries": [
+    "log"
+  ],
+  "dependencies": {
+    "ox": "0",
+    "std": "0",
+    "archive": "0"
+  },
+  "files": [
+    "%pkg%/package.ox",
+    "%pkg%/oxp.ox",
+    "%pkg%/package_schema.ox",
+    "%pkg%/package_list_schema.ox",
+    "%pkg%/log.ox"
+  ]
+}
