@@ -11,7 +11,7 @@ config = argv[0]
         en: "OX package manager"
         zh: "OX脚本语言包管理器"
     }
-    version: "0.0.1"
+    version: "0.0.2"
     dependencies: get_deps("ox", "std:0.0.1", "curl", "json", "oxp")
     executables: [
         "pm"

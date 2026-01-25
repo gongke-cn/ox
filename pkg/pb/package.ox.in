@@ -27,6 +27,7 @@
   "dependencies": {
     "ox": "0",
     "std": "0.0.1",
+    "pm": "0.0.1",
     "gettext": "0",
     "doc": "0",
     "oxngen": "0",

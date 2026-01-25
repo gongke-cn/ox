@@ -5,6 +5,7 @@ ref "std/fs"
 ref "std/copy"
 ref "std/fs"
 ref "std/io"
+ref "std/time"
 ref "oxp/package_list_schema"
 ref "curl/curl"
 ref "json/json"
@@ -24,6 +25,9 @@ Server: class {
     //Download a file
     download(src, dst, total_size, clips) {
         downloaded = 0
+        start_time = Time()
+        update_time = 0
+        status_displayed = false
         #dst_file = File(dst, "wb")
 
         if !clips {
@@ -47,6 +51,34 @@ Server: class {
                 write_fn: func(buf, size, num) {
                     dst_file.write(buf, 0, num)
                     @downloaded += num
+
+                    bytes: func(size) {
+                        size = Number(size)
+                        if size > 1024 * 1024 {
+                            return "{size/(1024 * 1024)!.2f}M"
+                        } elif size > 1024 {
+                            return "{size/1024!.2f}K"
+                        } else {
+                            return "{size}"
+                        }
+                    }
+
+                    now = Time()
+                    if update_time == 0 || now - update_time >= 500 {
+                        update_time = now
+
+                        speed = Number(downloaded) * 1000 / (now - start_time + 1)
+
+                        if total_size {
+                            size_text = "{bytes(downloaded)}B/{bytes(total_size)}B"
+                        } else {
+                            size_text = "{bytes(downloaded)}B"
+                        }
+
+                        stdout.puts("\x1b[1G{size_text} {bytes(speed)}B/s\x1b[K")
+                        stdout.flush()
+                        @status_displayed = true
+                    }
                     return num
                 }.to_c(C.func_type(Size, UInt8.pointer, Size, Size))
 
@@ -64,12 +96,19 @@ Server: class {
                     throw SystemError("download \"{src_uri}\" failed")
                 }
             } catch e {
+                if status_displayed {
+                    stdout.puts("\n")
+                }
                 dst_file.$close()
                 unlink(dst)
                 throw e
             } finally {
                 curl_easy_cleanup(curl)
             }
+        }
+
+        if status_displayed {
+            stdout.puts("\n")
         }
     }
 
