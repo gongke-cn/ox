@@ -47,6 +47,7 @@ enum {
     ID_dirname,
     ID_basename,
     ID_fullpath,
+    ID_normpath,
     ID_MAX
 };
 
@@ -57,6 +58,7 @@ pub_tab[] = {
     "dirname",
     "basename",
     "fullpath",
+    "normpath",
     NULL
 };
 
@@ -434,6 +436,126 @@ end:
     return r;
 }
 
+/*normpath*/
+static OX_Result
+Path_normpath (OX_Context *ctxt, OX_Value *f, OX_Value *thiz, OX_Value *args, size_t argc, OX_Value *rv)
+{
+    OX_Value *s_arg = ox_argument(ctxt, args, argc, 0);
+    OX_VS_PUSH(ctxt, s)
+    const char *c, *b;
+    OX_CharBuffer cb;
+    OX_VECTOR_TYPE_DECL(size_t) ps;
+    OX_Bool has_root = OX_FALSE;
+    size_t path_begin = 0;
+    OX_Result r;
+
+    ox_char_buffer_init(&cb);
+    ox_vector_init(&ps);
+
+    if ((r = ox_to_string(ctxt, s_arg, s)) == OX_ERR)
+        goto end;
+
+    c = ox_string_get_char_star(ctxt, s);
+
+#ifdef ARCH_WIN
+    if (ox_char_is_alpha(c[0]) && (c[1] == ':')) {
+        char disk = *c;
+
+        c += 2;
+
+        if ((r = ox_char_buffer_append_char(ctxt, &cb, disk)) == OX_ERR)
+            goto end;
+
+        if ((r = ox_char_buffer_append_char(ctxt, &cb, ':')) == OX_ERR)
+            goto end;
+
+        path_begin = cb.len;
+    }
+
+    if ((*c == '/') || (*c == '\\'))
+#else
+    if (*c == '/')
+#endif /*ARCH_WIN*/
+    {
+        if ((r = ox_char_buffer_append_char(ctxt, &cb, '/')) == OX_ERR)
+            goto end;
+
+        has_root = OX_TRUE;
+        path_begin = cb.len;
+    }
+
+    b = c;
+    while (1) {
+        OX_Bool sep = OX_FALSE;
+
+        if (*c == 0) {
+            sep = OX_TRUE;
+        } else
+
+#ifdef ARCH_WIN
+        if ((*c == '/') || (*c == '\\'))
+#else
+        if (*c == '/')
+#endif
+            sep = OX_TRUE;
+
+        if (sep) {
+            if (c > b) {
+                if ((c == b + 1) && (*b == '.')) {
+                } else if ((c == b + 2) && (b[0] == '.') && (b[1] == '.')) {
+                    if (ps.len) {
+                        size_t pos;
+
+                        ps.len --;
+                        pos = ox_vector_item(&ps, ps.len);
+                        cb.len = pos;
+                    } else if (has_root) {
+                    } else {
+                        if (cb.len > path_begin) {
+                            if ((r = ox_char_buffer_append_char(ctxt, &cb, '/')) == OX_ERR)
+                                goto end;
+                        }
+
+                        if ((r = ox_char_buffer_append_chars(ctxt, &cb, "..", 2)) == OX_ERR)
+                            goto end;
+                    }
+                } else {
+                    if ((r = ox_vector_append(ctxt, &ps, cb.len)) == OX_ERR)
+                        goto end;
+
+                    if (cb.len > path_begin) {
+                        if ((r = ox_char_buffer_append_char(ctxt, &cb, '/')) == OX_ERR)
+                            goto end;
+                    }
+
+                    if ((r = ox_char_buffer_append_chars(ctxt, &cb, b, c - b)) == OX_ERR)
+                        goto end;
+                }
+            }
+
+            if (*c == 0)
+                break;
+
+            c ++;
+            b = c;
+        } else {
+            c ++;
+        }
+    }
+
+    if (cb.len == 0) {
+        if ((r = ox_char_buffer_append_char(ctxt, &cb, '.')) == OX_ERR)
+            goto end;
+    }
+
+    r = ox_char_buffer_get_string(ctxt, &cb, rv);
+end:
+    ox_char_buffer_deinit(ctxt, &cb);
+    ox_vector_deinit(ctxt, &ps);
+    OX_VS_POP(ctxt, s)
+    return r;
+}
+
 /*Load this module.*/
 OX_Result
 ox_load (OX_Context *ctxt, OX_Value *s)
@@ -493,9 +615,13 @@ ox_load (OX_Context *ctxt, OX_Value *s)
  *? @return {String} The file part.
  *?
  *? @func fullpath Get the full pathname of the file.
- *? @param path {String} The filename.
+ *? @param path {String} The pathname.
  *? @return {String} The file's full pathname.
  *? @throw {SystemError} The file does not exist.
+ *?
+ *? @func normpath Normalize the pathname.
+ *? @param path {String} The pathname.
+ *? @return {String} The normalized pathname.
  */
 
 /*Execute.*/
@@ -514,6 +640,8 @@ ox_exec (OX_Context *ctxt, OX_Value *nf, OX_Value *s, OX_Value *args, size_t arg
     ox_not_error(ox_script_set_value(ctxt, s, ID_basename, f));
     ox_not_error(ox_named_native_func_new_s(ctxt, f, Path_fullpath, NULL, "fullpath"));
     ox_not_error(ox_script_set_value(ctxt, s, ID_fullpath, f));
+    ox_not_error(ox_named_native_func_new_s(ctxt, f, Path_normpath, NULL, "normpath"));
+    ox_not_error(ox_script_set_value(ctxt, s, ID_normpath, f));
 
     /*Path.format.*/
     ox_not_error(ox_enum_new(ctxt, fmts, OX_ENUM_ENUM));

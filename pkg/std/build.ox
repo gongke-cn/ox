@@ -23,7 +23,7 @@ if config.p.libs {
         en: "OX standard librares"
         zh: "OX脚本语言标准库"
     }
-    version: "0.0.1"
+    version: "0.0.2"
     dependencies: get_deps("ox")
     development_dependencies: get_deps("ox_devel", "pb")
     libraries: [
