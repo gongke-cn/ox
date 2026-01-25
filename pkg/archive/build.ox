@@ -15,7 +15,7 @@ libs: Shell.output("{config.pc} libarchive --libs").trim()
         zh: "支持多种格式的数据打包和压缩库"
     }
     version: "0.0.1"
-    dependencies: get_deps("ox", "std", "libarchive")
+    dependencies: get_deps("ox", "libarchive")
     development_dependencies: get_deps("ox_devel", "pb", "libarchive_devel")
     libraries: [
         "archive"

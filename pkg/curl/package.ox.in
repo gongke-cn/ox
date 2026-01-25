@@ -14,7 +14,7 @@
   ],
   "dependencies": {
     "ox": "0",
-    "std": "0",
+    "std": "0.0.1",
     "libcurl": "0",
     "ca-certificates": "0"
   },

@@ -12,7 +12,7 @@ config = argv[0]
         zh: "OX脚本语言包管理器"
     }
     version: "0.0.1"
-    dependencies: get_deps("ox", "std", "curl", "json", "oxp")
+    dependencies: get_deps("ox", "std:0.0.1", "curl", "json", "oxp")
     executables: [
         "pm"
     ]

@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "ox": "0",
-    "std": "0",
+    "std": "0.0.1",
     "curl": "0",
     "json": "0",
     "oxp": "0"

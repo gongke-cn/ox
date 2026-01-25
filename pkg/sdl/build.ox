@@ -12,7 +12,7 @@ config = argv[0]
         zh: "Simple DirectMedia Layer - 游戏开发库"
     }
     version: "0.0.1"
-    dependencies: get_deps("ox", "std", "libSDL")
+    dependencies: get_deps("ox", "libSDL")
     development_dependencies: get_deps("ox_devel", "pb", "libsdl_devel")
     libraries: [
         "sdl"

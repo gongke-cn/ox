@@ -18,7 +18,7 @@ if config.os != "windows" {
         zh: "ncurses - 终端界面字符输出库"
     }
     version: "0.0.1"
-    dependencies: get_deps("ox", "std", "libncursesw")
+    dependencies: get_deps("ox", "std:0.0.1", "libncursesw")
     development_dependencies: get_deps("ox_devel", "pb", "libncurses_devel")
     libraries: [
         "ncurses"

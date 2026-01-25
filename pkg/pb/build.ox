@@ -11,7 +11,7 @@ config = argv[0]
         zh: "OX脚本语言软件包构建工具"
     }
     version: "0.0.1"
-    dependencies: get_deps("ox", "std", "gettext", "doc", "oxngen", "json", "oxp", "ox_devel", "gcc", "gnu-gettext", "pkgconf")
+    dependencies: get_deps("ox", "std:0.0.1", "gettext", "doc", "oxngen", "json", "oxp", "ox_devel", "gcc", "gnu-gettext", "pkgconf")
     executables: [
         "pb"
     ]

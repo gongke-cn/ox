@@ -12,7 +12,7 @@ config = argv[0]
         zh: "OX脚本语言软件包操作库"
     }
     version: "0.0.1"
-    dependencies: get_deps("ox", "std", "archive")
+    dependencies: get_deps("ox", "std:0.0.1", "archive")
     libraries: [
         "oxp"
         "package_schema"

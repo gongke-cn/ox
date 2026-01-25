@@ -12,7 +12,7 @@ config = argv[0]
         zh: "HTTP超文本传输协议"
     }
     version: "0.0.1"
-    dependencies: get_deps("ox", "std", "ssl")
+    dependencies: get_deps("ox", "ssl")
     executables: [
         "server"
     ]

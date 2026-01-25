@@ -14,7 +14,7 @@ version: Shell.output("{config.pc} libcurl --modversion").trim()
         zh: "curl - 网络传输库"
     }
     version: "0.0.1"
-    dependencies: get_deps("ox", "std", "libcurl", "ca-certificates")
+    dependencies: get_deps("ox", "std:0.0.1", "libcurl", "ca-certificates")
     development_dependencies: get_deps("ox_devel", "pb", "libcurl_devel")
     libraries: [
         "curl"

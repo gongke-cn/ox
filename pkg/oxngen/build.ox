@@ -11,7 +11,7 @@ config = argv[0]
         zh: "OX脚本语言原生模块生成器"
     }
     version: "0.0.1"
-    dependencies: get_deps("ox", "std", "json", "clang")
+    dependencies: get_deps("ox", "std:0.0.1", "json", "clang")
     executables: [
         "oxngen"
     ]

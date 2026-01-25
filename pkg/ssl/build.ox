@@ -15,7 +15,7 @@ libs = Shell.output("{config.pc} openssl --libs").trim()
         zh: "OpenSSL - 安全套接字及加密库"
     }
     version: "0.0.1"
-    dependencies: get_deps("ox", "std", "libssl", "libcrypto")
+    dependencies: get_deps("ox", "std:0.0.1", "libssl", "libcrypto")
     development_dependencies: get_deps("ox_devel", "pb", "openssl_devel")
     libraries: [
         "ssl"

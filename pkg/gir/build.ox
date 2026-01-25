@@ -12,7 +12,7 @@ config = argv[0]
         zh: "GObject 反射库"
     }
     version: "0.0.1"
-    dependencies: get_deps("ox", "std", "libgirepository-2.0")
+    dependencies: get_deps("ox", "libgirepository-2.0")
     development_dependencies: get_deps("ox_devel", "pb", "libglib2.0_devel")
     libraries: [
         "gir"

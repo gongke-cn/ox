@@ -11,7 +11,7 @@ config = argv[0]
         zh: "XML解析库"
     }
     version: "0.0.1"
-    dependencies: get_deps("ox", "std")
+    dependencies: get_deps("ox", "std:0.0.1")
     development_dependencies: get_deps("ox_devel", "pb")
     libraries: [
         "xml"

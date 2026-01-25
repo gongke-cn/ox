@@ -11,7 +11,7 @@ config = argv[0]
         zh: "文档生成器"
     }
     version: "0.0.1"
-    dependencies: get_deps("ox", "std")
+    dependencies: get_deps("ox", "std:0.0.1")
     executables: [
         "doc"
     ]

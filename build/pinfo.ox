@@ -32,15 +32,20 @@ public get_deps: func() {
     deps = {}
 
     for argv as p {
-        if plist {
-            pi = get_pi(p)
-            if pi {
-                deps[pi.name] = pi.version
+        m = p.match(/(.+):(.+)/)
+        if m {
+            deps[m.groups[1]] = m.groups[2]
+        } else {
+            if plist {
+                pi = get_pi(p)
+                if pi {
+                    deps[pi.name] = pi.version
+                } else {
+                    deps[p] = "0"
+                }
             } else {
                 deps[p] = "0"
             }
-        } else {
-            deps[p] = "0"
         }
     }
 

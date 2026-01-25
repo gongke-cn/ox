@@ -14,7 +14,6 @@
   ],
   "dependencies": {
     "ox": "0",
-    "std": "0",
     "libarchive": "0"
   },
   "files": [
