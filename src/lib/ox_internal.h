@@ -301,6 +301,7 @@ struct OX_Frame_s {
 typedef enum {
     OX_SCRIPT_STATE_ERROR,  /**< Error.*/
     OX_SCRIPT_STATE_UNINIT, /**< Uninitialized.*/
+    OX_SCRIPT_STATE_LOADREF,/**< Load references.*/
     OX_SCRIPT_STATE_INITED, /**< Initialized.*/
     OX_SCRIPT_STATE_CALLED  /**< Called.*/
 } OX_ScriptState;

@@ -781,15 +781,16 @@ script_exec (OX_Context *ctxt, OX_Value *sv)
     OX_Script *old_s = ctxt->curr_script;
     OX_Result r;
 
+    if (s->state == OX_SCRIPT_STATE_LOADREF) {
+        r = ox_throw_reference_error(ctxt, OX_TEXT("circular reference"));
+        goto end;
+    }
+
     ctxt->curr_script = s;
     r = ox_call(ctxt, sv, ox_value_null(ctxt), NULL, 0, rv);
     ctxt->curr_script = old_s;
 
-    if (r == OX_OK) {
-        if (s->state != OX_SCRIPT_STATE_CALLED)
-            r = ox_throw_reference_error(ctxt, OX_TEXT("circular reference"));
-    }
-
+end:
     OX_VS_POP(ctxt, rv)
     return r;
 }
@@ -1200,6 +1201,8 @@ ox_script_init (OX_Context *ctxt, OX_Value *script)
             if ((r = native_script_init(ctxt, script)) == OX_ERR)
                 goto error;
         }
+
+        s->state = OX_SCRIPT_STATE_LOADREF;
 
         /*Load references.*/
         if ((r = load_scripts(ctxt, s)) == OX_ERR)
