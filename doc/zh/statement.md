@@ -82,7 +82,28 @@ v = if a == 1 {
     2000 //a!=1时设v=2000
 }
 ```
+if语句还可以用在数组和对象的定义中，用来在特定条件下加入数组元素和对象属性。如：
+```
+a = [
+    0
+    1
+    //当cond为true时，加入数组元素2,3
+    if cond {
+        2
+        3
+    }
+]
 
+o = {
+    a: 1
+    b: 2
+    if cond {
+        c: 3 //cond为true时，设置属性c为3
+    } else {
+        c: 4 //cond为false时，设置属性c为4
+    }
+}
+```
 语法描述：
 ```
 if_statement: "if" expression "{" statements? "}" ("elif" expression "{" statements? "}")* ("else" "{" statements? "}")?
@@ -124,6 +145,7 @@ case a {
 }
 * {
     stdout.puts("other\n")
+        c: 4  
 }
 }
 ```
@@ -144,7 +166,37 @@ v = case a {
 }
 }
 ```
+case语句还可以用在数组和对象的定义中，用来在不同条件下加入不同的数组元素和对象属性。如：
+```
+a = [
+    case cond {
+    0 {
+        "a" //cond == 0时加入元素"a"
+    }
+    1 {
+        "b" //cond == 1时加入元素"b"
+    }
+    * {
+        "c" //其他情况下加入元素"c"
+    }
+    }
+]
 
+o = {
+    a: 1
+    case cond {
+    0 {
+        b: 0 //cond == 0时加入属性b
+    }
+    1 {
+        c: 1 //cond == 1时加入属性c
+    }
+    * {
+        d: 2 //其他情况下加入属性d
+    }
+    }
+}
+```
 语法描述：
 ```
 case_statement: "case" expression "{" case_items? "}"

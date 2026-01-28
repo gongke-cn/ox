@@ -82,7 +82,28 @@ v = if a == 1 {
     2000 //Set v=2000 when a!=1
 }
 ```
+You can also use the if statement in the definition of arrays and objects to add array elements and object properties under specific conditions. For example:
+```
+a = [
+    0
+    1
+    //When cond == true，add items 2 and 3
+    if cond {
+        2
+        3
+    }
+]
 
+o = {
+    a: 1
+    b: 2
+    if cond {
+        c: 3 //When cond == true, set property "c" to 3
+    } else {
+        c: 4 //When cond == false, set property "c" to 3
+    }
+}
+```
 Syntax Description:
 ```
 if_statement: "if" expression "{" statements? "}" ("elif" expression "{" statements? "}")* ("else" "{" statements? "}")?
@@ -144,7 +165,37 @@ v = case a {
 }
 }
 ```
+You can also use the case statement in the definition of arrays and objects to add different array elements and object properties under different conditions. For example:
+```
+a = [
+    case cond {
+    0 {
+        "a" //When cond == 0, add item "a"
+    }
+    1 {
+        "b" //When cond == 1, add item "b"
+    }
+    * {
+        "c" //Otherwise add item "c"
+    }
+    }
+]
 
+o = {
+    a: 1
+    case cond {
+    0 {
+        b: 0 //When cond == 0, add property "b"
+    }
+    1 {
+        c: 1 //When cond == 1, add property "c"
+    }
+    * {
+        d: 2 //Otehrwise add property "d"
+    }
+    }
+}
+```
 Syntax Description:
 ```
 case_statement: "case" expression "{" case_items? "}"
